@@ -1,0 +1,59 @@
+/*COLORS*/
+/*FONTS*/
+.stm_layout_portfolio .stm_contact__image {
+  position: relative;
+  top: 10px;
+}
+
+.stm_contact_style_1 {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.stm_contact_style_1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.stm_contact_style_1 .stm_contact__image {
+  margin-right: 30px;
+}
+.stm_contact_style_1 .stm_contact__image img {
+  border-radius: 50%;
+}
+.stm_contact_style_1 .stm_contact__info {
+  overflow: hidden;
+}
+.stm_contact_style_1 .stm_contact__info__title {
+  font-size: 16px;
+  text-transform: none;
+}
+.stm_contact_style_1 .stm_contact__info h5 {
+  font-size: 20px;
+  margin-bottom: 3px;
+  text-transform: none !important;
+}
+.stm_contact_style_1 .stm_contact__info .h6 {
+  margin: 0 0 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.stm_contact_style_1 .stm_contact__job {
+  margin: -3px 0 -3px;
+  font-size: 13px;
+}
+.stm_contact_style_1 .stm_contact__row {
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.stm_contact_style_1 .stm_contact__row span {
+  display: none;
+}
+.stm_contact_style_1 .stm_contact__row strong {
+  font-size: 14px;
+}
+.stm_contact_style_1 h5 {
+  margin-top: -2px;
+}
+
+/*# sourceMappingURL=style_1.css.map */

@@ -1,0 +1,60 @@
+.stm_wp_hotelier_form h2 {
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.stm_wp_hotelier_form form {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 0;
+}
+.stm_wp_hotelier_form form .form-group {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+.stm_wp_hotelier_form form .form-group:last-child {
+  margin-left: auto;
+  text-align: right;
+  padding-right: 0;
+}
+.stm_wp_hotelier_form form [type=submit] {
+  margin-top: 0;
+}
+@media (max-width: 1023px) {
+  .stm_wp_hotelier_form form {
+    display: block;
+  }
+  .stm_wp_hotelier_form form .form-group {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  .stm_wp_hotelier_form form [type=submit] {
+    width: 100%;
+  }
+  .stm_wp_hotelier_form .stm_select {
+    width: 100%;
+  }
+  .stm_wp_hotelier_form .datepicker-input-select {
+    font-size: 14px !important;
+  }
+  .stm_wp_hotelier_form .datepicker-input-select-wrapper {
+    width: 100%;
+    max-width: initial;
+  }
+}
+@media (max-width: 550px) {
+  .stm_wp_hotelier_form .datepicker__info {
+    display: none;
+  }
+  .stm_wp_hotelier_form .datepicker__topbar {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  .stm_wp_hotelier_form .datepicker__close-button {
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=style_1.css.map */

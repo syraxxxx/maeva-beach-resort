@@ -1,0 +1,30 @@
+.stm_author_box {
+  position: relative;
+  padding: 20px;
+  background: #f6f6f6;
+  &__avatar {
+    float: left;
+    width: 87px;
+    margin: 0 27px 0 0;
+  }
+  &__name {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    margin: 0 0 10px 0;
+    strong {
+      display: block;
+      font-size: 14px;
+    }
+  }
+  &__content {
+    overflow: hidden;
+    line-height: 20px;
+  }
+  @include breakpoint(mobile) {
+    &__avatar {
+      float: none;
+      margin-bottom: 15px;
+    }
+  }
+}

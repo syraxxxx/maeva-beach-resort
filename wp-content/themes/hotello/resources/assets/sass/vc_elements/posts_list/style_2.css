@@ -1,0 +1,85 @@
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__image {
+  overflow: hidden;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__image img {
+  width: 100%;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__image > a {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__date {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__link > a {
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+  text-decoration: none;
+  padding: 3px 0;
+  font-weight: bold;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__link > a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  transition: 0.3s ease;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__link > a:before {
+  background-color: #222222;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__link > a:hover:before {
+  width: 100%;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__excerpt {
+  color: #333333;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__excerpt p {
+  margin-bottom: 0;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__title h4 {
+  font-weight: 500 !important;
+  margin-bottom: 23px;
+}
+.stm-posts-list_style_2 .stm-post__posts-list .stm-post__title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #222222;
+  margin-bottom: 23px;
+}
+
+.stm-post__card .stm-post__body {
+  padding: 33px 30px 18px;
+  background-color: #fff;
+}
+.stm-post__card .stm-post__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 26px;
+  background-color: #fff;
+}
+.stm-post.sticky {
+  position: relative;
+}
+.stm-post.sticky .stm_sticky_post {
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.stm-post .stm_sticky_post {
+  display: none;
+}
+.stm-post__title {
+  word-break: break-word;
+}
+
+/*# sourceMappingURL=style_2.css.map */

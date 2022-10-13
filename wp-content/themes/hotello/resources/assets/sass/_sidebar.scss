@@ -1,0 +1,245 @@
+@import "../sass/mixins";
+
+.stm_markup__sidebar {
+    .widget {
+        margin-bottom: 35px;
+        .widgettitle {
+            h5 {
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+        }
+        &_recent_entries {
+            ul {
+                padding: 0;
+                list-style: none;
+                li {
+                    margin-bottom: 15px;
+                    > a {
+                        display: block;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                    > span {
+                        color: #aaaaaa;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+        &_search {
+            form {
+                position: relative;
+                input {
+                    border: 2px solid #d9d9d9;
+                }
+                [type=submit] {
+                    background-color: transparent;
+                    position: absolute;
+                    border: none;
+                    right: 0;
+                    @include absAlign(v);
+                    padding: 0 15px;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.widget {
+    &.widget_categories,
+    &.widget_archive {
+        border-bottom: 0 !important;
+        .widgettitle {
+            margin-bottom: 10px;
+        }
+    }
+    &.widget_calendar {
+        .calendar_wrap {
+            caption {
+                font-weight: 700;
+            }
+            table {
+                width: 100%;
+                td,
+                th {
+                    text-align: center;
+                }
+                tbody {
+                    td {
+                        padding: 5px 0;
+                    }
+                    tr:last-child {
+                        td {
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+                tfoot {
+                    border-top: 1px solid #aaa;
+                    td {
+                        padding-top: 10px;
+                        &#prev {
+                            text-align: left;
+                        }
+                        &#next {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.widget_rss {
+        .rsswidget {
+            img {
+                display: none;
+            }
+        }
+        ul {
+            li {
+                padding-left: 0;
+            }
+        }
+    }
+    &.widget_text {
+        img {
+            margin: 10px 0;
+        }
+    }
+    &.widget_nav_menu {
+        .sub-menu {
+            margin-top: 10px;
+        }
+    }
+    &.widget_tag_cloud {
+
+    }
+}
+
+.widget_recent_comments {
+    ul {
+        li {
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 24px;
+            &:before {
+                top: 9px;
+                border-left-color: #ffac41 !important;
+            }
+            .url,
+            .comment-author-link {
+                color: #999;
+            }
+            a:not(.url) {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.widget.widget_recent_entries {
+    ul {
+        li {
+            font-size: 18px;
+            line-height: 28px;
+            &:before {
+                top: 0;
+                bottom: 14px;
+                background-color: #ffac41;
+            }
+            a {
+                padding-bottom: 22px;
+                &:after {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+}
+
+.widget.widget_rss {
+    ul {
+        li {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            font-size: 18px;
+            line-height: 24px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            a {
+                font-weight: 600;
+            }
+            .rss-date {
+                display: block;
+                margin: 11px 0;
+                font-size: 15px;
+            }
+            cite {
+                display: block;
+                margin-top: 15px;
+                font-style: normal;
+                font-size: 15px;
+                &:before {
+                    content: "\f007";
+                    display: inline-block;
+                    color: #ffac41;
+                    margin-right: 6px;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size: inherit;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+            }
+        }
+    }
+}
+
+.widget.widget_pages,
+.widget.widget_nav_menu,
+.widget.widget_categories {
+    ul {
+        font-family: 'Questrial';
+        > li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 15px;
+                left: 0;
+                width: 10px;
+                height: 2px;
+                background-color: #ffac41;
+            }
+            > ul {
+                margin-top: 15px;
+                li {
+                    &:before {
+                        border-radius: 0;
+                    }
+                    > ul {
+                        margin-top: 7px;
+                        li {
+                            margin-bottom: 7px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.widget.widget_text {
+    font-size: 16px;
+    line-height: 24px;
+}

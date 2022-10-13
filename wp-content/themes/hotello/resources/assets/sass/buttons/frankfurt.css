@@ -1,0 +1,47 @@
+.btn.btn_third.btn_outline.btn_full-width {
+  border: 1px solid #0f172b !important;
+}
+
+.btn.btn_primary.btn_solid.btn_icon-right.button.button--datepicker {
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+}
+.btn.btn_primary.btn_solid.btn_icon-right.button.button--datepicker.hover {
+  transition: 300ms;
+}
+
+.btn.btn_secondary.btn_solid {
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn.btn_secondary.btn_solid.hover {
+  transition: 300ms;
+}
+
+.btn.btn_primary.btn_outline {
+  border-radius: 5px;
+}
+.btn.btn_primary.btn_outline.hover {
+  transition: 300ms;
+}
+
+.btn.btn_primary.btn_solid {
+  border-radius: 5px;
+}
+.btn.btn_primary.btn_solid.hover {
+  transition: 300ms;
+}
+
+.btn.btn_third.btn_outline.btn_full-width {
+  border-radius: 5px;
+  border: 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn.btn_third.btn_outline.btn_full-width.hover {
+  transition: 300ms;
+}
+
+/*# sourceMappingURL=frankfurt.css.map */

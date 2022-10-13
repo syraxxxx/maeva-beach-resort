@@ -1,0 +1,246 @@
+@import "../../mixins";
+//@import "../../icons/hotel/variables";
+
+.form--listing {
+    .stm_wp_hotelier_rooms_list_style_1 {
+        .stm-rooms-list {
+            position: relative;
+            .room {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+.stm_wp_hotelier_rooms_list_style_1 {
+    position: relative;
+    .stm-rooms-types {
+        list-style: none;
+        font-size: 0;
+        margin-bottom: 46px;
+        ul {
+            font-size: 0;
+            padding-left: 0;
+            text-align: center;
+            li {
+                padding: 0 30px;
+                font-size: 14px;
+                display: inline-block;
+                a {
+                    padding: 8px 0;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                }
+                &.active {
+                    a {
+                        border-bottom: 1px solid;
+                        &:after {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .room-list-wrapper {
+        position: relative;
+    }
+    .stm-rooms-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        .room {
+            transition: .3s ease;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(15px);
+        }
+        &.active {
+            position: relative;
+            z-index: 100;
+            transition: 0.3s cubic-bezier(0.06, 0.43, 0.22, 1);
+            .room {
+                visibility: visible;
+                opacity: 1;
+                transform: translateY(0);
+                &:nth-child(1) {
+                    transition-delay: .2s;
+                }
+                &:nth-child(2) {
+                    transition-delay: .3s;
+                }
+                &:nth-child(3) {
+                    transition-delay: .4s;
+                }
+                &:hover {
+                    transform: translateY(-15px);
+                    transition-delay: 0s !important;
+                }
+            }
+        }
+        .room {
+            width: 33.33%;
+            padding: 0 15px;
+            margin-bottom: 60px;
+            &:last-child {
+                margin-bottom: 60px !important;
+            }
+            .inner {
+                height: 100%;
+                background-color: #fff;
+                box-shadow: 0 30px 50px rgba(153,153,153, .15);
+                transition: .3s ease;
+            }
+            &__image {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+            }
+            &__price {
+                position: absolute;
+                color: #fff;
+                bottom: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-weight: normal;
+                padding: 10px 20px;
+                border-radius: 50px;
+                font-size: 18px;
+                backface-visibility: hidden;
+            }
+            &__content {
+                padding: 40px 30px 21px;
+                background-color: #fff;
+                text-align: center;
+                line-height: 22px;
+            }
+            &__link {
+                @include absoluted();
+                background-color: rgba(#383128, .8);
+                opacity: 0;
+                transition: all .3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            &__title {
+                h3 {
+                    margin-bottom: 8px !important;
+                    a {
+                        display: block;
+                        transition: all .3s ease;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+            &__excerpt {
+                font-size: 15px;
+                margin-bottom: 19px;
+            }
+            &_info {
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 20px;
+                border-top: 1px solid rgba(204,204,204,0.5);
+                justify-content: center;
+                line-height: 17px;
+                &__single {
+                    margin: 0 10px;
+                    i {
+                        margin-right: 4px;
+                        font-size: 17px;
+                    }
+                    span {
+                        position: relative;
+                        top: 3px;
+                        font-size: 14px;
+                    }
+                    > * {
+                        vertical-align: top;
+                    }
+                }
+            }
+            &:hover {
+                .inner {
+                    box-shadow: 0 30px 50px rgba(153,153,153, .35);
+                }
+            }
+        }
+    }
+
+    .stm-load-more {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .stm-preloader {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        box-shadow: none;
+        animation: scaleout 1s infinite ease-in-out;
+        transition: all .5s ease-in-out;
+        margin: 0 auto;
+    }
+
+    &.white_nav {
+        .stm-rooms-types ul li a {
+            color: #fff;
+        }
+    }
+
+    @include breakpoint(tabletunder) {
+        .stm-rooms-types {
+            margin-bottom: 35px;
+            ul {
+                text-align: center;
+                li {
+                    margin-bottom: 15px;
+                    padding: 0 10px;
+                }
+            }
+        }
+        .stm-rooms-list {
+            .room {
+                height: auto;
+                width: 50%;
+                &__occupancy {
+                    flex-wrap: wrap;
+                    span {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint(mobile) {
+        .stm-rooms-list {
+            .room {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm_wp_hotelier_rooms_list_style_1 .stm-rooms-list .room__price {
+        left: 15%;
+        right: 15%;
+        transform: none;
+        text-align: center;
+    }
+}

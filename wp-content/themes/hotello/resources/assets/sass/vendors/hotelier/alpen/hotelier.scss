@@ -1,0 +1,1729 @@
+@import "../../../mixins";
+@import "../../../icons";
+@import "../../../buttons";
+@import "../base";
+@import "../../../vc_elements/wp_hotelier_rooms_list/style_1";
+
+.stm-socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.hotelier-pagination li a {
+    border: 1px solid #ddd; /* Gray */
+}
+
+.hotelier-pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.hotelier-pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.room-loop__list {
+    display: flex !important;
+    flex-wrap: wrap;
+
+    @include breakpoint(tablet) {
+        .stm-room__container {
+            width: 50%;
+        }
+    }
+    @include breakpoint(mobile) {
+        .stm-room__container {
+            width: 100%;
+        }
+    }
+}
+
+.stm_infobox_style_1 .stm_infobox_front i {
+    color: #fff !important;
+}
+
+.hotelier-listing .hotelier form.datepicker-form {
+    .datepicker-input-select-wrapper {
+
+    }
+}
+
+body .wpb_single_image .vc_single_image-wrapper.vc_box_shadow:before {
+    background: #609beb;
+}
+
+.stm_infobox_style_1 .inner:before {
+    background: rgba(58, 49, 56, 0.8);
+}
+
+form.stm_datepicker_list_form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    .form-group {
+        width: 330px;
+        padding: 0 40px;
+        margin-bottom: 0;
+        .datepicker-input-select-wrapper {
+            .datepicker-input-select {
+                padding: 0;
+                border: 0 !important;
+                background: transparent !important;
+                color: #fff !important;
+                font-size: 30px;
+                display: none !important;
+            }
+            &:after {
+                display: none;
+            }
+        }
+        .stm_select {
+            background: transparent;
+            border: 0;
+            font-size: 30px;
+            height: 36px;
+            min-width: 100px;
+            box-shadow: none !important;
+            .stm-select__val {
+                left: 0;
+                color: #fff;
+                &:after {
+
+                }
+            }
+            &:after {
+                color: #fff !important;
+            }
+        }
+        &.hidden {
+            display: block !important;
+        }
+        &-label {
+            padding-right: 30px;
+            color: rgb(33, 42, 66) !important;
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 500;
+            white-space: nowrap;
+            &:after {
+                content: "\10fea4" !important;
+                font-family: 'stmicons' !important;
+                display: block;
+                position: absolute;
+                right: 21px;
+                top: 0;
+            }
+            &.hidden {
+                display: block !important;
+            }
+        }
+    }
+    [type=submit] {
+        margin-top: 0;
+        box-shadow: none;
+        i {
+            display: none;
+        }
+    }
+}
+
+.stm-footer aside.widget .widgettitle.widget-footer-title h4 {
+    margin-bottom: 32px;
+    font-size: 20px;
+    text-transform: none;
+}
+
+body .hotelier .stm_wp_hotelier_rooms_list_style_1:not(.stm_rooms_single_page_list) .stm-rooms-list .room {
+    width: 33.333%;
+}
+
+.datepicker__month-day--hovering,
+.datepicker__month-day--selected {
+    background: #f5f4f3 !important;
+}
+
+.datepicker-form .datepicker__month-day--first-day-selected,
+.datepicker-form .datepicker__month-day--last-day-selected {
+    color: #fff !important;
+    background-color: #609beb !important;
+}
+
+.datepicker__month-day--invalid {
+    color: #bdbdbd !important;
+}
+
+.btn.btn_lg {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body .stm-navigation__default > ul > li ul {
+    margin-top: 15px;
+}
+
+.datepicker-form .datepicker-input-select-wrapper table th,
+.datepicker-form .datepicker-input-select-wrapper table td {
+    padding: 3px;
+    font-size: 11px;
+}
+
+.stm-footer__bottom {
+    font-size: 13px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.widget.widget_text {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+body .icon-list-1 li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    &:before {
+        top: 8px;
+        left: 1px;
+        width: 15px;
+        height: 15px;
+        border: 0;
+    }
+    &:after {
+        top: 12px;
+        left: 5px;
+        border-width: 2px;
+        width: 7px;
+        height: 5px;
+        border-color: #fff !important;
+    }
+}
+
+.stm_carousel.stm_carousel_style_1 {
+    .stm_carousel__pagination {
+        position: absolute;
+        bottom: 43px;
+        right: 240px;
+        font-size: 14px;
+        span {
+            color: #fff !important;
+        }
+    }
+    &.stm_carousel__navigation_style_1 {
+        .owl-nav {
+            position: absolute;
+            right: 52px;
+            bottom: 50px;
+            opacity: 1;
+            button {
+                &.owl-prev,
+                &.owl-next {
+                    position: static;
+                    border-radius: 0;
+                    transform: none;
+                    background-color: #fff !important;
+                    &:before {
+                        color: #212a42 !important;
+                        transition: .3s ease;
+                    }
+                    &:hover {
+                        &:before {
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body .wpb_video_widget .wpb_video_wrapper {
+    padding-top: 64.25%;
+}
+
+.stm_header_style_1 .stm-header__element .stm-socials a {
+    font-size: 20px;
+}
+
+.btn, .widget-booking.widget--hotelier .widget-booking__change-cart > a {
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.wpb_revslider_element.wpb_content_element {
+    margin-bottom: 0;
+}
+
+body.stm_header_style_1 .stm-navigation__default > ul > li > a {
+    letter-spacing: 0;
+    padding: 0 29px;
+}
+
+.stm_header_transparent .stm-header {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 25%, rgb(255, 255, 255) 75%) !important;
+}
+
+.datepicker-form {
+    .datepicker-input-select {
+        background-color: #f5f5f5 !important;
+        color: #333333 !important;
+        &::-webkit-input-placeholder,
+        &::placeholder {
+            color: #333333 !important;
+        }
+    }
+    .guest_count {
+        .stm_select__dropdown {
+            li {
+                &:first-child {
+                    opacity: 0;
+                    margin-top: -18px;
+                }
+            }
+        }
+    }
+}
+
+.hotelier {
+    .datepicker-form {
+        border: 0 !important;
+        background-color: #f1f1f1;
+        .datepicker-input-select {
+            background-color: #fff !important;
+            border-color: #fff !important;
+            padding-right: 44px;
+        }
+        .selected-nights {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-style: normal;
+        }
+    }
+    .stm_wp_hotelier_rooms_list_style_1:not(.stm_rooms_single_page_list) {
+        .stm-rooms-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .room {
+                width: 50%;
+                @include breakpoint(tabletunder) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.stm_wp_hotelier_rooms_filter {
+    .widget-rooms-filter__group-label {
+        padding-bottom: 13px !important;
+        //background-color: #f3eee5 !important;
+        //color: #222 !important;
+        //border-top: 3px solid rgb(58, 49, 56);
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .widget-rooms-filter__group-list {
+        padding-left: 30px !important;
+        @include breakpoint(tabletunder) {
+            padding-left: 0 !important;
+        }
+    }
+    .widget-rooms-filter__group-link:before {
+        border: 1px solid #ccc !important;
+        border-radius: 4px !important;
+    }
+}
+
+.stm_rooms_single_page_list {
+    padding: 87px 0;
+    margin-bottom: -60px;
+    background-attachment: fixed;
+    .stm-rooms-list {
+        //display: flex;
+    }
+}
+
+.room.type-room {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+    .stm-rooms-slider {
+        margin-bottom: 50px !important;
+    }
+    .stm-single-room {
+        &__price {
+            color: #fff;
+            font-size: 14px;
+            border: 1px solid rgba(#fff, .5);
+            margin: 21px 0 23px;
+            padding: 20px 22px 16px;
+            text-transform: uppercase;
+            ins {
+                text-decoration: none;
+            }
+            del {
+                opacity: .7;
+            }
+            > span {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 38px;
+                &.price-label {
+                    position: relative;
+                    top: 2px;
+                    left: 11px;
+                    font-size: 14px;
+                    vertical-align: top;
+                    letter-spacing: 2px;
+                    word-spacing: 1px;
+                }
+            }
+        }
+        &__deposit {
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            margin-bottom: 20px;
+        }
+        &__availability {
+            margin-top: 111px;
+            position: relative;
+            padding: 50px 40px;
+            margin-bottom: 30px;
+            background-color: #3a3138 !important;
+            &-message {
+                display: none;
+                margin-top: 30px;
+                margin-bottom: -20px;
+            }
+            .form-group {
+                .stm_select {
+                    background-color: #fff;
+                    font-size: 16px;
+                    height: 44px;
+                }
+            }
+            .datepicker {
+                &-input-select {
+                    background-color: #fff;
+                    height: 44px;
+
+                    &-wrapper {
+                        position: relative;
+                        z-index: 100;
+                        width: 100%;
+                    }
+                }
+            }
+            button[type=submit] {
+                //font-size: 16px;
+                letter-spacing: 0;
+                span {
+                    &:after {
+                        content: '';
+                        display: inline-block;
+                        position: relative;
+                        top: 5px;
+                        left: 7px;
+                        vertical-align: top;
+                        width: 6px;
+                        height: 6px;
+                        transform: rotate(45deg);
+                        transition: .3s ease;
+                    }
+                }
+                &:hover {
+                    color: #fff !important;
+                    span {
+                        &:after {
+                            border-top-color: #fff;
+                            border-right-color: #fff;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    .room__details--single {
+        display: flex;
+        flex-wrap: wrap;
+        > * {
+            width: 100%;
+        }
+        .room__description--single {
+            margin: -7px 0 4px;
+            order: -1;
+        }
+        .room__facilities--single {
+            margin-bottom: 57px;
+        }
+        .room__meta--single {
+            .room__meta-title--single {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 22px;
+            }
+            span {
+                font-size: 18px;
+                color: #3a3138;
+            }
+            strong {
+                color: #222222;
+                font-weight: 400;
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .stm-single-room__intro {
+        order: 1;
+        position: relative;
+        margin: 50px 15px 0;
+        width: 100%;
+        overflow: hidden;
+        h2 {
+            margin: -5px 0 30px;
+            text-align: center;
+        }
+        .room_info {
+            display: flex;
+            margin: 0 0 40px;
+            justify-content: center;
+            &__single {
+                margin: 0 15px;
+                span {
+                    position: relative;
+                    top: -1px;
+                    margin-left: 4px;
+                    font-size: 15px;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+    .stm-single-room__content {
+        order: 3;
+        width: 66.6666%;
+        padding: 0 15px;
+    }
+    .stm-single-room__sidebar {
+        order: 2;
+        width: 33.33%;
+        padding: 0 15px;
+
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        & + svg {
+            margin-bottom: 30px;
+        }
+    }
+    .stm-rooms-slider {
+        margin-bottom: 30px;
+    }
+    .room {
+        &__content {
+            padding: 0;
+        }
+        &__meta {
+            margin-bottom: 30px;
+
+            &-item {
+                color: #222;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #cccccc;
+                font-size: 14px;
+                padding: 10px 0;
+                line-height: 30px;
+            }
+            &-list {
+                padding-left: 0;
+            }
+            &-title {
+                margin-bottom: 20px;
+            }
+        }
+        &__facilities {
+            list-style: none;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #f7f7f7;
+            background-color: #f1f1f1;
+            margin-bottom: 30px;
+            &-content--single {
+                font-size: 12px;
+                color: #333;
+                display: block;
+                text-align: center;
+                width: calc(16.666% - 10px);
+                flex-grow: 0;
+                background-color: #fff;
+                margin: 5px;
+                padding: 15px 0 5px;
+                i {
+                    display: block;
+                    font-size: 50px;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+        &__description {
+            &--single {
+                margin-bottom: 40px;
+            }
+        }
+        &__conditions {
+            &-list {
+                font-size: 14px;
+            }
+        }
+    }
+    @include breakpoint(tabletunder) {
+        flex-wrap: wrap;
+        .stm-single-room__content {
+            width: 100%;
+        }
+        .stm-single-room__sidebar {
+            width: 100%;
+        }
+        .datepicker-input-select-wrapper {
+            max-width: initial;
+        }
+    }
+
+}
+
+.related-rooms {
+    background-color: #f5f5f5;
+    margin-bottom: -60px;
+    margin-top: 40px;
+    padding-top: 52px;
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .room-loop--related-rooms {
+        display: flex;
+        flex-wrap: wrap;
+        .room-loop {
+            &__list {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -15px;
+            }
+            &--columns-3 {
+                .stm-room__container {
+                    width: 33.333%;
+                }
+            }
+        }
+        .stm-room {
+            &__container {
+                @include breakpoint(tabletunder) {
+                    width: 50%;
+                }
+                @include breakpoint(mobile) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.stm-room {
+    background-color: #fff;
+    flex-grow: 0;
+    box-shadow: 0px 30px 50px 0px rgba(153, 153, 153, 0.15);
+
+    &__container {
+        padding: 0 15px;
+        width: 33.33%;
+        margin-bottom: 40px;
+    }
+    &__image {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .stm-room__link {
+            @include absoluted();
+            background-color: rgba(#383128, .8);
+            opacity: 0;
+            transition: all .3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    &__price {
+        position: absolute;
+        color: #fff;
+        top: 20px;
+        right: 0;
+        left: auto;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 26px;
+        padding: 10px 20px;
+        backface-visibility: hidden;
+        > span {
+            font-size: 24px;
+            font-weight: 600;
+            del {
+                opacity: .5;
+            }
+            ins {
+                text-decoration: none;
+            }
+        }
+    }
+    &__content {
+        padding: 28px 30px 35px;
+        background-color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    &__title {
+        h4 {
+            margin-bottom: 5px;
+            a {
+                display: block;
+                transition: all .3s ease;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    &__excerpt {
+        margin-bottom: 25px;
+    }
+    &__occupancy {
+        i {
+            font-size: 30px;
+            vertical-align: sub;
+            margin-right: 5px;
+        }
+        margin-bottom: 12px;
+        align-items: flex-end;
+        color: #333333;
+        span {
+            &:last-child {
+                font-style: italic;
+            }
+        }
+    }
+    //box-shadow: 0px 30px 50px 0px rgba(153, 153, 153, 0.15);
+    margin-bottom: 30px;
+}
+
+.stm_wp_hotelier_rooms_filter {
+    .widget-rooms-filter {
+        &__wrapper {
+            font-size: 16px;
+        }
+        &__group-label {
+            color: #fff;
+            padding: 15px 18px;
+            line-height: 20px;
+        }
+        &__group-list {
+            padding-left: 0;
+        }
+        &__group-item {
+            padding-left: 0;
+            margin-bottom: 12px;
+            &:before {
+                display: none;
+            }
+            &--chosen {
+                a {
+                    &:after {
+                        @include stmicon($stmicon-check);
+                        position: absolute;
+                        left: 0;
+                        @include absAlign(v);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &__group-link {
+            display: flex;
+            &:before {
+                content: '';
+                display: block;
+                width: 16px;
+                height: 16px;
+                border: 1px solid #f3f3f3;
+                background-color: #f5f5f5;
+                margin-right: 15px;
+                border-radius: 0;
+                position: static;
+                cursor: pointer;
+                transition: all .3s ease;
+                flex-shrink: 0;
+                margin-top: 7px;
+            }
+            &:hover {
+                text-decoration: none;
+                &:before {
+                    background-color: #eaeaea;
+                }
+            }
+        }
+    }
+}
+
+//rooms list
+.hotelier-listing {
+    form.datepicker-form {
+        z-index: 200;
+        position: relative;
+        display: flex;
+        border: 1px solid;
+        padding: 30px;
+        align-items: center;
+        .datepicker-input-select-wrapper {
+            width: 330px;
+        }
+        .button--datepicker {
+            margin-top: 0;
+            margin-left: auto;
+        }
+        .datepicker-input-select {
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
+            font-size: 16px;
+        }
+        @include breakpoint(tabletunder) {
+            flex-wrap: wrap;
+            .datepicker {
+                &-input-select {
+                    &-wrapper {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            .selected-nights {
+                text-align: left;
+                margin-left: 0;
+            }
+            [type=submit] {
+                margin-left: auto;
+            }
+        }
+        @include breakpoint(mobile) {
+            display: block;
+            .datepicker-input-select {
+                &-wrapper {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+            .selected-nights {
+                display: none;
+            }
+            .datepicker {
+                &__info {
+                    display: none;
+                }
+                &__close-button {
+                    height: 40px;
+                }
+                &__topbar {
+                    text-align: right;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .selected-nights {
+        margin-bottom: 0;
+        margin-left: 30px;
+        font-weight: normal;
+    }
+    .listing__list {
+        padding-left: 0;
+        .listing__room {
+            padding: 0;
+            border: 0;
+            margin: 0 0 30px;
+            overflow: visible;
+        }
+        .room {
+            &__content {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 14px;
+                &-wrapper {
+                    width: 100%;
+                    display: flex;
+                }
+            }
+            &__image {
+                min-width: 265px;
+                img {
+                    width: 100%;
+                }
+            }
+            &__gallery {
+                position: relative;
+                overflow: hidden;
+                &-thumbnail {
+                    display: block;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        display: block;
+                        @include absoluted();
+                        background-color: rgba(#000, .2);
+                        opacity: 0;
+                        transition: all .3s ease;
+                    }
+                    &:hover {
+                        &:before {
+                            opacity: 1;
+                        }
+                    }
+                }
+                &-link {
+                    display: none;
+                }
+                .room__only-x-left {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    margin: 0;
+                    font-size: 12px;
+                    padding: 3px 10px;
+                }
+            }
+            &__info {
+                position: relative;
+                background-color: #f5f5f5;
+                padding: 20px 30px 0;
+                flex-basis: 0;
+                flex-grow: 1;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+            }
+            &__price {
+                font-size: 30px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                &-nights {
+                    margin-bottom: 5px;
+                    display: block;
+                }
+                &-wrapper {
+                    &--listing {
+                        margin-top: 3px;
+                        width: 30%;
+                        text-align: right;
+                        position: absolute;
+                        top: 30px;
+                        right: 30px;
+                    }
+                }
+                > small {
+                    font-size: 20px;
+                    font-weight: normal;
+                    margin-right: 5px;
+                }
+            }
+            &__name {
+                font-size: 24px;
+                margin: 0;
+                width: 70%;
+                a {
+                    text-decoration: none;
+                }
+            }
+            &__min-max-stay {
+                font-size: 14px;
+            }
+            &__footer {
+                width: 100%;
+                display: flex;
+                flex-grow: 1;
+                justify-content: space-between;
+                align-items: center;
+                align-self: flex-end;
+                padding: 10px 0;
+                border-top: 1px solid #cccccc;
+            }
+            &__rates {
+                width: 100%;
+            }
+            &__max-guests {
+                font-size: 14px;
+                > * {
+                    display: inline-block;
+                    vertical-align: bottom;
+                    line-height: 14px;
+                }
+                i {
+                    font-size: 20px;
+                }
+                &-recommendation {
+                    font-size: 14px;
+                    margin-top: 0;
+                }
+            }
+            &__non-cancellable-info {
+                text-align: right;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: normal;
+                margin-top: 10px;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+            &__sale-price-badge {
+                position: absolute;
+                top: auto;
+                left: auto;
+                right: -40px;
+                bottom: 100px;
+                background-color: #fe0002;
+                width: 200px;
+                height: 40px;
+                color: #fff;
+                transform: rotate(-45deg);
+                transform-origin: bottom right;
+                z-index: 100;
+                span {
+                    position: absolute;
+                    top: auto;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    bottom: 0;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                }
+            }
+            &__deposit {
+                background-color: rgb(219, 219, 219);
+                border-radius: 4px;
+                text-transform: uppercase;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 5px 15px;
+                margin-bottom: 0;
+            }
+            &__rate {
+                background-color: #f5f5f5;
+                margin-top: 0;
+                padding: 30px;
+                position: relative;
+                &:not(:last-child):after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 30px;
+                    right: 30px;
+                    height: 1px;
+                    border-bottom: 1px solid #cccccc;
+                }
+            }
+            &__rates {
+                &--listing {
+                    margin-top: 5px;
+                }
+            }
+            &__images-quantity {
+                position: absolute;
+                z-index: 55;
+                top: 15px;
+                left: auto;
+                right: 15px;
+                color: #fff;
+                font-size: 14px;
+                line-height: 32px;
+                font-weight: bold;
+                background-color: rgba(#000, .4);
+                padding: 0 10px;
+                border-radius: 4px;
+                span {
+                    vertical-align: middle;
+                }
+                &:before {
+                    @include stmicon($stmicon-photo_camera);
+                    font-size: 18px;
+                    font-weight: normal;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .rate {
+            &__name {
+                &--listing {
+                    width: 100%;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+            }
+            &__price {
+                font-size: 24px;
+                margin-bottom: 10px;
+
+                > span {
+                    > span {
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                }
+                del {
+                    opacity: .5;
+                }
+                ins {
+                    text-decoration: none;
+                }
+            }
+            &__deposit {
+                margin-bottom: 10px;
+                background-color: #dbdbdb;
+                border-radius: 4px;
+            }
+            &__description {
+                p {
+                    margin-bottom: 0;
+                }
+            }
+            &__conditions {
+                font-size: 18px;
+                margin-top: 18px;
+                &-title {
+                    margin-bottom: 4px;
+                    display: block;
+                }
+                &-list {
+                    padding-left: 0;
+                }
+                &-item {
+                    font-size: 14px;
+                    &:before {
+                        @include stmicon($stmicon-keyboard_arrow_right);
+                        vertical-align: bottom;
+                    }
+                }
+            }
+        }
+        .button {
+            &--toggle-rates {
+                margin-top: 0;
+                margin-left: auto;
+                .opened {
+                    display: none;
+                }
+                &[aria-expanded=true] {
+                    .btn__icon {
+                        transform: rotate(180deg) translateY(50%);
+                    }
+                    .closed {
+                        display: none;
+                    }
+                    .opened {
+                        display: block;
+                    }
+                }
+            }
+            &--add-to-cart {
+                margin-top: 0;
+            }
+        }
+        @include breakpoint(tablet) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+            .listing__room {
+                width: 100%;
+                padding: 0 15px;
+            }
+            .room {
+                height: auto;
+                &__gallery {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                &__info {
+                    display: block;
+                }
+                &__price {
+                    display: block;
+                    &-wrapper {
+                        position: static;
+                        width: 100%;
+                        text-align: left;
+                        margin-bottom: 15px;
+                    }
+                }
+                &__deposit {
+                    margin-bottom: 25px;
+                }
+                &__name {
+                    width: 100%;
+                }
+                &__footer {
+                    display: block;
+                }
+                &__max-guests {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        @include breakpoint(mobile) {
+            .room {
+
+            }
+        }
+    }
+}
+
+.widget-booking.widget--hotelier {
+    .widgettitle {
+        color: #777777 !important;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .widget-booking {
+        &__wrapper {
+            padding: 30px 30px 115px;
+            position: relative;
+        }
+        &__dates {
+            display: flex;
+            margin: 0 -5px;
+        }
+        &__date {
+            font-size: 14px;
+            background-color: #fff;
+            line-height: 20px;
+            padding: 10px 10px;
+            &-label {
+                color: #fff;
+                font-size: 14px;
+                text-transform: none;
+                margin-bottom: 3px;
+            }
+            &-block {
+                width: 50%;
+                border: none;
+                text-align: left;
+                padding: 0 5px;
+            }
+        }
+        &__rooms {
+            &-list {
+                padding: 0;
+            }
+        }
+        &__room {
+            &-item {
+                color: #fff;
+                border-top: 1px solid rgba(#fff, .55);
+                border-bottom: 1px solid rgba(#fff, .55);
+                padding: 22px 0;
+            }
+            &-link {
+                color: #fff;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 30px;
+            }
+            &-rate {
+                opacity: .5;
+                text-transform: uppercase;
+            }
+        }
+        &__cart {
+            &-total {
+                color: #fff;
+                display: flex;
+                justify-content: space-between;
+                font-weight: bold;
+                font-size: 18px;
+                strong {
+                    font-size: 14px;
+                    font-weight: normal;
+                    opacity: .5;
+                }
+            }
+        }
+        &__change-cart {
+            position: absolute;
+            top: auto;
+            bottom: 40px;
+            @include absAlign(h);
+            margin: 0;
+            > a {
+                @extend .btn;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .stm-reservation {
+        color: #fff;
+        padding: 0 30px 30px;
+        &__room {
+            border-bottom: 1px solid rgba(#fff, .55);
+            padding: 22px 0;
+            &-name {
+                h5 {
+                    a {
+                        font-size: 18px;
+                        color: #fff !important;
+                        margin-bottom: 17px;
+                    }
+                }
+            }
+            &-rate {
+                font-size: 12px;
+                text-transform: uppercase;
+                opacity: .5;
+            }
+        }
+        &__total {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-label {
+                opacity: .5;
+            }
+            &-value {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.hotelier-reservation-received .widget-booking.widget--hotelier {
+    .widget-booking {
+        &__wrapper {
+            padding-bottom: 0;
+        }
+        &__change-cart-link {
+            display: none;
+        }
+    }
+}
+
+.hotelier {
+    .guest-details-fields {
+        margin: 0 -15px;
+        display: flex;
+        flex-wrap: wrap;
+        .form-row {
+            width: 50%;
+            padding: 0 15px;
+        }
+    }
+    .guest-additional-information-fields {
+        margin: 0 -15px;
+        display: flex;
+        flex-wrap: wrap;
+        .form-row {
+            width: 100%;
+            padding: 0 15px;
+            &--arrival-time {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.reservation-response {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 24px 30px;
+    border-radius: 6px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    &:before {
+        margin-right: 25px;
+        font-size: 36px;
+    }
+    &--received {
+        background-color: #dcf3d6;
+        border-color: #91ce4c;
+        &:before {
+            @include stmicon($stmicon-hotel-success);
+        }
+    }
+    &--cancelled {
+        background-color: #ff0000;
+        color: #fff;
+        &:before {
+            @include stmicon($stmicon-hotel-warning);
+        }
+    }
+}
+
+body.hotelier-booking {
+    .booking {
+        &__section {
+            .section-header {
+                margin-bottom: 7px;
+                h3 {
+                    font-weight: 500;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+            }
+            &--cards {
+                .credit-cards {
+                    &__list {
+                        padding-left: 0;
+                        display: flex;
+                    }
+                    &__icon {
+                        width: 100px;
+                        height: 75px;
+                        &:not(:last-child) {
+                            margin-right: 10px;
+                        }
+                        &:before {
+                            width: 100%;
+                            height: 100%;
+                            background-position: 50% 50%;
+                        }
+                    }
+                }
+            }
+            &--payment {
+                .payment-methods {
+                    padding-left: 0;
+                    .payment-method {
+                        background-color: #f5f5f5;
+                        padding: 40px;
+                        &__description {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            &--guest-details {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .form-row {
+        &__description {
+            font-size: 14px;
+        }
+        &__label {
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 16px;
+            display: inline-block;
+            margin-bottom: 14px;
+            abbr.required {
+                text-decoration: none;
+                color: #ff0000;
+                border: none;
+            }
+        }
+        &--booking-terms {
+            display: flex;
+            align-items: center;
+            .input--booking-terms {
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+
+    .hotelier-table {
+        th, td {
+            padding: 15px 20px;
+            border-color: #ccc;
+            vertical-align: middle;
+        }
+        tr {
+            position: relative;
+            &:first-child {
+                td, th {
+                    border-top: none;
+                }
+            }
+            &:last-child {
+                td, th {
+                    border-bottom: none;
+                }
+            }
+        }
+        thead {
+            td, th {
+                font-size: 14px;
+                text-transform: none;
+            }
+            th {
+                font-weight: bold;
+            }
+        }
+    }
+    .table {
+        &--guest-details {
+            tbody {
+                tr {
+                    th {
+                        font-weight: normal;
+                    }
+                    td {
+                        font-weight: bold;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+    .reservation-table {
+        &__room {
+            &-qty {
+                width: 400px;
+                text-align: center;
+            }
+            &-remove {
+                width: 20px;
+                height: 20px;
+                display: block;
+                margin: 0;
+                position: absolute;
+                right: 15px;
+                @include absAlign(v);
+                &:before, &:after {
+                    content: '';
+                    display: block;
+                    background-color: #b4202a;
+                    width: 17px;
+                    height: 2px;
+                    @include absAlign(c);
+                    transform-origin: center center;
+                }
+                &:before {
+                    transform: rotate(45deg);
+                }
+                &:after {
+                    transform: rotate(-45deg);
+                }
+            }
+            &-cost {
+                position: relative;
+                width: 100px;
+                font-weight: bold;
+            }
+            &-rate {
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+            &-name {
+                width: 400px;
+            }
+        }
+        &__row {
+            &--footer {
+                th, td {
+                    border-top: 1px solid #ccc !important;
+                }
+            }
+        }
+        &--reservation-details {
+            th {
+                font-weight: normal;
+            }
+            td {
+                text-align: right;
+            }
+        }
+    }
+    .reservation-details {
+        &__list {
+            padding-left: 0;
+        }
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 14px 20px;
+        }
+    }
+    .reservation-received {
+        &__section {
+            .section-header {
+                margin-bottom: 30px;
+                h3 {
+                    font-size: 16px !important;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.datepicker {
+    &__month-day {
+        &--today {
+            background-color: #fff;
+            color: inherit;
+        }
+        &--invalid {
+            color: #b4b4b4;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .hotelier-listing form.datepicker-form .selected-nights {
+        order: 2;
+        margin-left: auto;
+        margin-top: -13px;
+    }
+    .hotelier-listing form.datepicker-form .datepicker-input-select-wrapper {
+        order: 1;
+        max-width: 260px;
+    }
+    .hotelier-listing form.datepicker-form [type=submit] {
+        order: 2;
+        margin-left: 0;
+    }
+    .sm-text-center {
+        text-align: center !important;
+    }
+}
+
+.datepicker-form .datepicker-input-select-wrapper:after {
+    color: #999 !important;
+}
+
+body.single-room {
+    .room_info {
+        .stmicon-bed {
+            font-size: 18px;
+        }
+        .stmicon-nipple {
+            font-size: 20px;
+        }
+    }
+}
+
+.stm_titlebox_style_1 {
+    &:after {
+        background-color: transparent;
+    }
+    .stm_titlebox__title {
+        color: rgb(33, 42, 66) !important;
+    }
+}
+
+@include breakpoint(1023px) {
+    body.stm_header_style_1 .stm-navigation.stm-navigation__default ul li ul.sub-menu li a {
+        color: rgb(33, 42, 66) !important;
+    }
+    body.stm_header_style_1 .stm-navigation__default > ul > li ul li > a {
+        font-size: 16px !important;
+    }
+    .stm_header_style_1 .stm-navigation.stm-navigation__default ul li.menu-item-has-children > a:after {
+        border-top-color: rgb(33, 42, 66) !important;
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm_carousel.stm_carousel_style_1 .stm_carousel__pagination {
+        display: none !important;
+    }
+    .stm_header_transparent .stm-header {
+        background: #fff !important;
+    }
+    .stm-navigation__default > ul > li {
+        margin-bottom: 20px;
+    }
+    body .hotelier .stm_wp_hotelier_rooms_list_style_1:not(.stm_rooms_single_page_list) .stm-rooms-list .room {
+        width: 50%;
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm_header_style_1 .stm-header,
+    .stm_header_style_1.stm_transparent_header_disabled .stm_mobile__header {
+        background-color: #eef8ff !important;
+    }
+    .stm_header_style_1.stm_header_transparent .stm_mobile__header {
+        background-color: transparent !important;
+    }
+}
+
+.room.type-room {
+    .stm-single-room__availability {
+        background-color: #f3f4f6 !important;
+    }
+    .stm-single-room__deposit {
+        color: #a8a9ad;
+    }
+}
+
+@media (min-width: 1281px) {
+
+    .stm_wp_hotelier_rooms_list_style_1 .stm-rooms-list .room__price {
+        width: 225px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 425px) {
+    body .hotelier .stm_wp_hotelier_rooms_list_style_1:not(.stm_rooms_single_page_list) .stm-rooms-list .room {
+        width: 100%;
+    }
+}

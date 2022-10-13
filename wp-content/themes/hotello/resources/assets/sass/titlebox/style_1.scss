@@ -1,0 +1,35 @@
+@import "base";
+
+.stm_titlebox {
+    &_style_1 {
+        padding: 300px 0 53px;
+        display: flex;
+        align-items: center;
+        .h1 {
+            margin-bottom: 15px;
+        }
+        &:after {
+            background-color: rgba(0,0,0,0.6);
+        }
+        @include breakpoint(mobile) {
+            .stm_flex {
+                display: block;
+            }
+            .stm_titlebox__actions {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .stm_titlebox_style_1 {
+        padding-top: 130px;
+    }
+}
+
+@media (max-width:550px) {
+    .stm_titlebox_style_1 {
+        padding-top: 112px;
+    }
+}

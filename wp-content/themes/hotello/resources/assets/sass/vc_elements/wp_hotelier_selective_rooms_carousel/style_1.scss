@@ -1,0 +1,89 @@
+@import "../../mixins";
+@import "../../icons";
+
+.stm_selective_rooms_carousel_style_1 {
+    display: flex;
+    flex-wrap: wrap;
+    .stm-room {
+        &__carousel {
+            box-shadow: none;
+            height: auto;
+            margin-bottom: 0;
+            .stm-room {
+                &__title {
+                    margin-bottom: 3px;
+                    h4 {
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                }
+                &__content {
+                    border: 1px solid #e5e5e5;
+                    border-top: none;
+                }
+                &__occupancy {
+                    padding-top: 0;
+                    border: none;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    margin-bottom: 16px;
+                    > span {
+                        font-weight: normal;
+                        line-height: 1.2;
+                    }
+                    &:before {
+                        @include stmicon($stmicon-hotel-peoples);
+                        font-size: 28px;
+                        vertical-align: bottom;
+                        margin-right: 10px;
+                    }
+                }
+                &__excerpt {
+                    margin-bottom: 22px;
+                    min-height: 72px;
+                }
+                &__link {
+                    position: static;
+                    opacity: 1;
+                    visibility: visible;
+                    background-color: transparent;
+                    width: 100%;
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .owl-nav {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        button.owl-prev, button.owl-next {
+            transform: none;
+            position: static;
+            @include size(44);
+            border-radius: 0;
+            background: #fff !important;
+            opacity: 0.7;
+            border: 1px solid #e5e5e5;
+            &:before {
+                color: inherit !important;
+                font-size: 24px;
+                line-height: 44px;
+            }
+            &:hover {
+                border: 1px solid #871b2a;
+            }
+        }
+        button.owl-next {
+            border-left: none;
+        }
+        @include breakpoint(mobile) {
+            margin-top: 15px;
+        }
+    }
+}

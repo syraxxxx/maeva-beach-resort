@@ -1,0 +1,133 @@
+@import "../mixins";
+@import "../variables";
+@import "../icons";
+
+body.stm_header_offset {
+  .stm_titlebox {
+    margin-top: -92px;
+    @include breakpoint(1023px) {
+      margin-top: 0;
+    }
+  }
+}
+
+.stm_titlebox {
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+  margin-bottom: 60px;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  margin-top: -60px;
+  &:after {
+    @include pseudo();
+    @include absoluted();
+    z-index: 10;
+  }
+  &__subtitle {
+
+  }
+  &__actions,
+  &__inner {
+    position: relative;
+    z-index: 15;
+  }
+  &__inner {
+    flex: 1;
+  }
+  &__author {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    .stm_titlebox__author {
+      &_avatar {
+        margin-right: 10px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      &_name {
+        &:after {
+          content: ' / ';
+        }
+      }
+    }
+  }
+  &_text-right {
+    text-align: right;
+    .stm_separator {
+      margin-left: auto;
+    }
+    .stm_titlebox__actions {
+      order: -1;
+      margin-right: auto;
+      margin-left: inherit !important;
+      padding-left: 0 !important;
+      padding-right: 15px;
+    }
+  }
+  &_text-center {
+    text-align: center;
+    .stm_flex {
+      justify-content: center;
+      &_last > *:last-child:not(:first-child) {
+        margin-left: inherit;
+        padding-left: 50px;
+      }
+    }
+    .stm_separator {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @include breakpoint(mobile) {
+    padding-top: 30px;
+    &__title.h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &__inner {
+      order: 1;
+      width: 100%;
+      text-align: left;
+    }
+    &__actions {
+      order: 2;
+      padding: 0 !important;
+      margin: 30px 0 !important;
+    }
+  }
+
+  &__overlay, &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  &__overlay {
+    display: none;
+  }
+}
+
+.stm_transparent_header_disabled {
+  .stm_titlebox_style_3 {
+    padding: 50px 0;
+  }
+}
+
+.stm_title_box_enabled.stm_breadcrumbs_enabled {
+  .stm_titlebox {
+    margin-bottom: 20px;
+    &_style_2 {
+      margin-bottom: 12px;
+    }
+  }
+}

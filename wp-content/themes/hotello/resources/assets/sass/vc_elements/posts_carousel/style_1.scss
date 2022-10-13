@@ -1,0 +1,188 @@
+//hotel 1
+@import "../../variables";
+@import "../../mixins";
+
+.stm_posts_carousel_style_1 {
+  position: relative;
+  &.has_filter {
+    padding-left: 55px;
+  }
+  .stm_posts_carousel {
+    &_single {
+      font-size: 14px;
+      margin-bottom: 0 !important;
+
+      &__body {
+        background-color: #fff;
+        border: 1px solid #e6e6e6;
+        border-top: none;
+        padding: 27px 30px 20px;
+      }
+
+      &__excerpt {
+        p {
+          margin-bottom: 20px;
+          line-height: 24px;
+        }
+      }
+
+      &__info {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        .stmicon-magazine-view {
+          font-size: 10px;
+        }
+        .info__item {
+          margin-right: 15px;
+        }
+        .comments_count {
+          display: flex;
+          align-items: center;
+          i {
+            margin-right: 3px;
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+      backface-visibility: hidden;
+      &__image {
+        position: relative;
+        img {
+          width: 100% !important;
+        }
+        .video_label {
+          backface-visibility: hidden;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          padding: 0 7px;
+          background-color: #000;
+          color: #fff;
+          font-size: 11px;
+          line-height: 25px;
+          height: 25px;
+          &:before {
+            content: '';
+            display: block;
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            left: -25px;
+            top: 0;
+            backface-visibility: hidden;
+          }
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: -16px;
+            top: 6px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6.5px 0 6.5px 11px;
+            border-color: transparent transparent transparent #fff;
+            -webkit-transform: rotate(360deg);
+            backface-visibility: hidden;
+          }
+        }
+      }
+      h5 {
+        margin-bottom: 13px !important;
+        cursor: pointer !important;
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        a {
+          cursor: pointer !important;
+        }
+      }
+    }
+  }
+  .post_category {
+    border: 1px solid transparent;
+    border-radius: 11px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 10px;
+    color: #fff;
+    letter-spacing: 1.1px;
+    &:not(:first-child) {
+      margin-top: 5px;
+    }
+  }
+
+  .owl-controls {
+    .owl-nav {
+      .owl-prev, .owl-next {
+        width: 30px;
+        height: 30px;
+        border-width: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0;
+        top: -43px;
+        border-radius: 0;
+        &:before {
+          font-family: FontAwesome;
+          content: "\e647";
+        }
+      }
+      .owl-prev {
+        right: 55px;
+        left: auto;
+        &:before {
+          content: '\f104';
+        }
+      }
+      .owl-next {
+        left: auto;
+        right: 15px;
+        &:before {
+          content: '\f105';
+        }
+      }
+    }
+  }
+
+  @include breakpoint(tabletunder) {
+
+  }
+
+  @include breakpoint(mobile) {
+
+  }
+}
+
+.contrast {
+  .stm_posts_carousel_style_5 {
+    color: rgba(255, 255, 255, .7) !important;
+    .post_category {
+      color: rgba(255, 255, 255, .7);
+      border-color: rgba(255, 255, 255, .7) !important;
+      background-color: transparent !important;
+    }
+    h5 {
+      a {
+        color: #fff !important;
+      }
+    }
+    .owl-controls {
+      .owl-nav {
+        .owl-prev, .owl-next {
+          border-color: rgba(255, 255, 255, .7) !important;
+          &:before {
+            color: rgba(255, 255, 255, .7) !important;
+          }
+          &:hover {
+            border-color: transparent !important;
+          }
+        }
+      }
+    }
+  }
+}

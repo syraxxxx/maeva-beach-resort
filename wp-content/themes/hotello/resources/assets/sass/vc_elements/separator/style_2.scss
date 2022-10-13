@@ -1,0 +1,21 @@
+@import "../../mixins";
+
+.stm_separator_style_2 {
+  .stm_separator {
+    display: block;
+    height: 5px;
+    margin: 0 0 21px;
+    width: 100%;
+    background-color: transparent !important;
+    @include repeating_gradient();
+    &_doubled {
+      position: relative;
+      &:before {
+        @include pseudo();
+        @include absoluted();
+        right: 100%;
+        opacity: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+body.error404 {
+    #content {
+        margin-bottom: 0;
+    }
+    .container {
+        width: auto;
+        padding: 0;
+    }
+    .stm-footer,
+    header.site-header {
+        display: none;
+    }
+    .page-404 {
+        display: flex;
+        padding: 30px 5%;
+        flex-wrap: wrap;
+        min-height: 500px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        background: rgba(0,0,0,0.5) url('../images/fhd_404.jpg') 0 0 no-repeat;
+        h1 {
+            margin-bottom: 10px;
+            font-size: 230px;
+            line-height: 230px;
+            color: #fff;
+        }
+        h4 {
+            margin-bottom: 40px;
+            padding-right: 60px;
+            font-size: 25px;
+            line-height: 28px;
+            color: #fff;
+        }
+        .btn {
+            max-width: 260px;
+        }
+        > * {
+            max-width: 500px;
+        }
+    }
+}

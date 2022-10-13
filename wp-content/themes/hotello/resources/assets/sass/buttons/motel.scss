@@ -1,0 +1,63 @@
+@import "base";
+
+.btn.btn_primary.btn_solid.btn_icon-right.button.button--datepicker {
+  //display: none;
+  width: 150px;
+  height: 45px;
+  color: #fff !important;
+  background-color: #871b2a;
+  border-radius: 5px;
+  &.hover {
+    background-color: #ba010b;
+    transition: 300ms;
+  }
+}
+
+.btn.btn_secondary.btn_solid {
+  color: #fff !important;
+  background-color: #871b2a;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  &.hover {
+    background-color: #ba010b;
+    transition: 300ms;
+  }
+}
+
+.btn.btn_primary.btn_outline {
+  color: #fff !important;
+  background-color: #871b2a;
+  border-radius: 5px;
+  &.hover {
+    background-color: #ba010b;
+    transition: 300ms;
+  }
+}
+
+.btn.btn_primary.btn_solid {
+  color: #fff !important;
+  background-color: #871b2a;
+  border-radius: 5px;
+  &.hover {
+    background-color: #ba010b;
+    transition: 300ms;
+  }
+}
+
+.btn.btn_solid.btn_5be179c8c2a61.btn_secondary {
+  background: #871b2a;
+}
+
+.btn.btn_third.btn_outline.btn_full-width {
+  color: #fff !important;
+  background-color: #871b2a;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 400;
+  font-size: 15px;
+  &.hover {
+    background-color: #ba010b;
+    transition: 300ms;
+  }
+}

@@ -1,0 +1,89 @@
+//chicago
+@import "../../mixins";
+@import "../../icons";
+
+.stm_wp_hotelier_form {
+    box-shadow: 0px 30px 50px 0px rgba(153, 153, 153, 0.15);
+    h2 {
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+
+    form {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        margin-bottom: 0;
+        .form-group {
+            flex-basis: 180px;
+            flex-grow: 1;
+            margin-bottom: 0;
+            padding: 0 15px;
+            &:first-child {
+                padding-left: 10px;
+                flex-basis: 323px;
+            }
+            &:last-child {
+                margin-left: auto;
+                text-align: right;
+                padding-right: 0;
+                flex-basis: 200px;
+            }
+        }
+        [type=submit] {
+            width: 100%;
+            margin-top: 0;
+            box-shadow: none;
+            i {
+                display: none;
+            }
+        }
+    }
+    @include breakpoint(tabletunder) {
+        form {
+            display: block;
+            .form-group {
+                margin-bottom: 15px;
+                padding: 0;
+            }
+            [type=submit] {
+                width: 100%;
+            }
+        }
+        .stm_select {
+            width: 100%;
+        }
+
+        .datepicker {
+            &-input-select {
+                font-size: 14px !important;
+                &-wrapper {
+                    width: 100%;
+                    max-width: initial;
+                }
+            }
+        }
+    }
+    @include breakpoint(mobile) {
+        .datepicker {
+            &__info {
+                display: none;
+            }
+            &__topbar {
+                margin-bottom: 0;
+                text-align: right;
+            }
+            &__close {
+                &-button {
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(tabletunder) {
+    .stm_wp_hotelier_form form .form-group:first-child {
+        padding-left: 0;
+    }
+}

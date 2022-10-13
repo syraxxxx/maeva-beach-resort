@@ -1,0 +1,90 @@
+@import "../mixins";
+
+.stm_loop__grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    .stm_loop {
+        &__single {
+            padding: 0 15px;
+            width: 33.333%;
+        }
+    }
+    @include breakpoint(tabletunder) {
+        .stm_loop {
+            &__single {
+                width: 50%;
+            }
+        }
+    }
+    @include breakpoint(mobile) {
+        .stm_loop {
+            &__single {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+.stm_author_box {
+    display: flex;
+    margin-bottom: 65px;
+    &__avatar {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+    &__name {
+        margin-top: -7px;
+        margin-bottom: 12px;
+        color: #000;
+    }
+}
+
+.stm_markup_right,
+.stm_markup_left {
+    .stm_loop__grid {
+        .stm_loop {
+            &__single {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.stm-post {
+    &__card {
+        .stm-post {
+            &__body {
+                padding: 33px 30px 18px;
+                background-color: #fff;
+            }
+            &__footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 30px 26px;
+                background-color: #fff;
+            }
+        }
+    }
+    &.sticky {
+        position: relative;
+        .stm_sticky_post {
+            top: 0;
+            left: 0;
+            position: absolute;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+    }
+    .stm_sticky_post {
+        display: none;
+    }
+    &__title {
+        word-break: break-word;
+    }
+}

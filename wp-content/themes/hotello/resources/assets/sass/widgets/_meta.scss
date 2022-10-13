@@ -1,0 +1,10 @@
+.widget.widget_meta {
+    ul {
+        > li {
+            padding-left: 20px !important;
+            &:before {
+                @include border_small();
+            }
+        }
+    }
+}

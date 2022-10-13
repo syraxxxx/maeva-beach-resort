@@ -1,0 +1,523 @@
+@import "icons";
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+textarea,
+.stm_select,
+.form-control {
+    transition: all .3s ease;
+    width: 100%;
+    box-shadow: none;
+    outline: none !important;
+    padding: 12px 13px;
+    border-radius: 0;
+    vertical-align: top;
+    font-size: 16px;
+    color: #999;
+    height: auto;
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    line-height: 22px;
+    &.wpcf7-not-valid {
+        border-color: #ff0000;
+    }
+    &:focus {
+        background: #fff;
+        box-shadow: none;
+    }
+    /*IOS shadow fix*/
+    appearance: none;
+    &.wtc_h:not(.wbc) {
+        &:focus {
+            color: #fff !important;
+        }
+    }
+}
+
+.form-group {
+    position: relative;
+    &:before {
+        position: absolute;
+        font-family: 'stmicons';
+        line-height: 50px;
+        left: 15px;
+        z-index: 1;
+        color: #002040;
+    }
+    margin-bottom: 20px;
+
+    .wpcf7-form-control-wrap {
+        margin-bottom: 0;
+    }
+    .wpcf7-form-control-wrap {
+        margin-bottom: 0;
+    }
+
+    input {
+        + .btn_icon {
+            position: absolute;
+            right: 15px;
+            padding: 0;
+            background-color: transparent;
+            @include absAlign(v);
+        }
+    }
+}
+
+.stm_select {
+    cursor: pointer;
+    position: relative;
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    box-sizing: border-box;
+    min-width: 205px;
+    height: 50px;
+    transition: all .3s ease;
+    padding: 0;
+    z-index: 0;
+    select {
+        display: none;
+    }
+    .stm-select__val {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        top: 50%;
+        color: #333;
+        padding-right: 25px;
+        transform: translateY(-50%);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &:after {
+        position: absolute;
+        transition: all .2s ease;
+        @include stmicon($stmicon-keyboard_arrow_right);
+        display: inline-block;
+        height: auto;
+        top: 50%;
+        transform: rotate(90deg) translateY(-50%);
+        transform-origin: top;
+        font-size: 24px;
+        right: 15px;
+    }
+    &__dropdown {
+        margin-left: 0;
+        transition: all .3s ease;
+        box-shadow: 0 10px 20px 0 rgba(132, 107, 61, .3);
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        list-style: none;
+        padding: 0;
+        top: calc(100% - 1px);
+        left: -2px;
+        right: -2px;
+        overflow-y: auto;
+        border: 2px solid #f5f5f5;
+        border-top: none;
+        background-color: #fff;
+        li {
+            &:before {
+                display: none;
+            }
+            span {
+                transition: all .15s ease;
+                padding: 10px 15px;
+                display: block;
+                font-size: 16px;
+                color: #333;
+                &:hover {
+                    background-color: #eee;
+                }
+            }
+        }
+    }
+
+    &.open {
+        background-color: #fff;
+        border-bottom-color: transparent;
+        box-shadow: 0 10px 20px 0 rgba(132, 107, 61, .3);
+        z-index: 50 !important;
+
+        .stm_select__dropdown {
+            max-height: 300px !important;
+            visibility: visible;
+            opacity: 1;
+            li {
+                padding-left: 0 !important;
+                &:before {
+                    display: none;
+                }
+            }
+        }
+        &:after {
+            transform: rotate(-90deg) translateY(-50%);
+        }
+    }
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 4-18 */
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 19+ */
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* IE 10+ */
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 4-18 */
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 19+ */
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* IE 10+ */
+
+textarea {
+    min-height: 163px;
+    max-width: 100%;
+}
+
+/*CF7 styles*/
+
+.wpcf7-form-control-wrap {
+    display: block;
+    margin: 0 0 40px;
+}
+
+div.wpcf7-response-output {
+    margin: 20px 0;
+    padding: 15px 30px;
+    &.wpcf7-validation-errors {
+        border-width: 3px;
+    }
+}
+
+span.wpcf7-not-valid-tip {
+    display: none;
+}
+
+.mc4wp-alert,
+.wpcf7-response-output {
+    position: relative;
+    font-size: 16px;
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    border-color: #ff0000 !important;
+    &.mc4wp-success,
+    &.wpcf7-mail-sent-ok {
+        background-color: #03d56b !important;
+        color: #fff !important;
+        border-color: #03d56b !important;
+        &:before {
+            border-bottom-color: #03d56b;
+        }
+    }
+    &:before {
+        @include pseudo();
+        position: absolute;
+        top: -9px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 7px 7px 7px;
+        border-color: transparent transparent #ff0000 transparent;
+    }
+}
+
+.gform_confirmation_wrapper {
+    .gform_confirmation_message {
+        position: relative;
+        font-size: 16px;
+        background-color: #03d56b !important;
+        color: #fff !important;
+        border-color: #03d56b !important;
+        border-width: 3px;
+        border-style: solid;
+        margin: 20px 0;
+        padding: 15px 30px;
+    }
+}
+
+span.wpcf7-list-item {
+    margin: 0;
+}
+
+.mc4wp-alert {
+    margin: 20px 0 0;
+    padding: 15px 20px;
+    &:before {
+        top: -7px;
+    }
+    p {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        color: #fff !important;
+    }
+}
+
+.stm_mc4wp {
+    position: relative;
+    display: flex;
+    &__white {
+        input {
+            &:focus {
+                color: #fff !important;
+                &::-webkit-input-placeholder {
+                    color: transparent !important;
+                }
+            }
+        }
+    }
+    @include breakpoint(mobile) {
+        flex-wrap: wrap;
+        input[type="email"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    outline: none !important;
+}
+
+/*Some Basics*/
+select[multiple] {
+    margin: 0 !important;
+    border: 2px solid #ccc !important;
+    padding: 0 !important;
+    overflow-y: auto !important;
+    background: transparent !important;
+    option {
+        padding: 10px 15px;
+    }
+}
+
+.gform_wrapper {
+    ul.gform_fields {
+        li {
+            margin: 0 0 25px !important;
+        }
+    }
+    ul.gfield_checkbox li label,
+    ul.gfield_radio li label {
+        margin-left: 24px;
+        font-weight: 400 !important;
+    }
+    label.gfield_label {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .ginput_container_select {
+        .stm_select {
+            padding-top: 0;
+            select {
+                width: 100% !important;
+            }
+            .stm-select__val {
+                margin-top: 0;
+            }
+            &:after {
+                margin-top: 2px;
+            }
+        }
+    }
+}
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border: 1px solid #790000 !important;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+    margin: 4px 0 27px 1px;
+}
+
+.stm_input_wrapper {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    &:before {
+        @include pseudo();
+        @include absoluted();
+        background: #fff;
+        border: 2px solid transparent;
+        border-radius: 2px;
+    }
+    &:after {
+        @include absoluted();
+        text-align: center;
+        content: "\f00c";
+        @include fa();
+        line-height: 18px;
+        text-indent: 1px;
+        font-size: 11px;
+        color: #fff;
+        opacity: 0;
+        z-index: 10;
+    }
+    input[type="radio"],
+    input[type="checkbox"] {
+        @include absoluted();
+        margin: 0;
+        opacity: 0;
+        z-index: 50;
+    }
+    &.active {
+        &:after {
+            opacity: 1;
+        }
+    }
+    &.error {
+        &:before {
+            border-color: red !important;
+        }
+    }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.textarea_230 {
+    textarea {
+        min-height: 233px !important;
+    }
+}
+
+.mc4wp-form {
+    .btn_fullwidth {
+        width: 100% !important;
+    }
+}
+
+@include breakpoint(mobile) {
+    .wpcf7-list-item-label {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+
+.stm_select {
+
+}
+
+.wpcf7-form-control-wrap {
+    margin-bottom: 20px;
+}
+
+.datepicker-form {
+    .datepicker {
+        &__week-name, &__month-name {
+            font-weight: 600;
+        }
+        &__month-button {
+            font-size: 0;
+            &:before {
+                display: inline-block;
+                @include stmicon($stmicon-keyboard_arrow_right);
+                font-size: 24px;
+            }
+            &--prev {
+                &:before {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        &__month-name {
+            text-align: center;
+            color: #bdbdbd;
+            font-size: 14px !important;
+        }
+        &__month-day {
+            &--first-day-selected,
+            &--last-day-selected {
+                color: #fff !important;
+            }
+        }
+        thead {
+            background-color: transparent;
+        }
+        &__info {
+            font-size: 14px;
+        }
+        &__close-button {
+            border: 2px solid;
+            font-size: 14px;
+            padding: 0 20px;
+            height: 50px;
+            border-radius: 25px;
+            color: #fff;
+        }
+    }
+    .datepicker-input-select {
+        transition: all .3s ease;
+    }
+    .datepicker-input-select-wrapper {
+        display: block;
+        position: relative;
+        & + .datepicker-input--checkin {
+            display: none;
+            & + .datepicker-input--checkout {
+                display: none;
+            }
+        }
+        &:after {
+            @include stmicon($stmicon-date_range);
+            position: absolute;
+            @include absAlign(v);
+            right: 15px;
+            font-size: 23px;
+        }
+        table {
+            th {
+                background-color: transparent;
+            }
+            th, td {
+                padding: 7px;
+                font-size: 12px;
+            }
+        }
+    }
+}

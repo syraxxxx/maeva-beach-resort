@@ -1,0 +1,13 @@
+{
+  "assets": {
+    "owl-carousel.js": [
+      "./resources/assets/vendors/owl-carousel.js"
+    ],
+    "owl-carousel.css": [
+      "./resources/assets/vendors/owl-carousel.scss"
+    ],
+    "font-awesome.css": [
+      "./resources/assets/vendors/font-awesome.scss"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+@import "../../mixins";
+
+.stm_carousel {
+  &.navigation_off {
+    .owl-nav {
+      display: none !important;
+    }
+  }
+  .stm_carousel__single {
+    img {
+      transition: .3s ease;
+      &:hover {
+        transition: .3s ease;
+        filter: none !important;
+      }
+    }
+    &_small {
+      padding: 0 5px;
+      &.current {
+        &:before {
+          opacity: 1;
+        }
+      }
+      &:before {
+        @include pseudo();
+        @include absoluted();
+        left: 5px;
+        right: 5px;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        z-index: 25;
+      }
+    }
+  }
+}
+
+.stm_carousel_dots_right {
+  .owl-controls {
+    .owl-dots {
+      position: absolute;
+      z-index: 1000;
+      right: -50px;
+      @include absAlign(v);
+      .owl-dot {
+        margin: 18px auto;
+        display: block;
+      }
+    }
+  }
+}
+
+.stm_carousel_dots_bottom {
+  .owl-controls {
+    .owl-dots {
+      .owl-dot {
+        // margin: auto 18px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@include breakpoint(mobile) {
+  .stm_carousel {
+    max-width: 100% !important;
+    .owl-controls {
+      display: none !important;
+    }
+  }
+}
+
+.stm_bordered_carousel {
+  position: relative;
+  padding: 30px;
+  border: 20px solid #000;
+  background-color: #fff;
+  &__pseudo {
+    @include absoluted();
+    position: absolute !important;
+    z-index: 10;
+    &:after {
+      @include pseudo();
+      background-color: #424443;
+      position: absolute;
+      bottom: -20px;
+      left: -19px;
+      width: 28px;
+      height: 1px;
+      transform: rotate(-45deg);
+      transform-origin: left bottom;
+    }
+    &:before {
+      @include pseudo();
+      background-color: #424443;
+      position: absolute;
+      bottom: -20px;
+      right: -19px;
+      width: 28px;
+      height: 1px;
+      transform: rotate(45deg);
+      transform-origin: right bottom;
+    }
+  }
+  &:after {
+    @include pseudo();
+    background-color: #424443;
+    position: absolute;
+    top: -20px;
+    left: -19px;
+    width: 28px;
+    height: 1px;
+    transform: rotate(45deg);
+    transform-origin: left top;
+  }
+  &:before {
+    @include pseudo();
+    background-color: #424443;
+    position: absolute;
+    top: -20px;
+    right: -19px;
+    width: 28px;
+    height: 1px;
+    transform: rotate(-45deg);
+    transform-origin: right top;
+  }
+  .stm_carousel__big {
+    position: relative;
+    margin-bottom: 0 !important;
+    z-index: 20;
+  }
+  img {
+    padding: 1px;
+    border: 1px solid #c0c4c5;
+  }
+}

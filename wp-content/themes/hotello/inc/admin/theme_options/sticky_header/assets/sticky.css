@@ -1,0 +1,21 @@
+.stm-header__row_color.hotello_is_sticky {
+  transition: 0.3s ease;
+}
+
+.stm-header__row_color.hotello_is_sticky.hotello_going_sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: 0s ease;
+  z-index: 99;
+}
+
+.stm-header__row_color.hotello_is_sticky.hotello_sticked {
+  transform: translateY(0);
+  transition: 0.3s ease;
+}
+
+/*# sourceMappingURL=sticky.css.map */

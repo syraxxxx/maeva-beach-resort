@@ -1,0 +1,17 @@
+.widget.widget_meta,
+.widget.widget_archive {
+    ul {
+        li {
+            padding-left: 20px !important;
+            font-size: 16px;
+            &:before {
+                @include border_small();
+                border-left-color: #ffac41;
+            }
+        }
+    }
+
+    label.screen-reader-text {
+        display: none;
+    }
+}

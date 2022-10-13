@@ -1,0 +1,315 @@
+@import "../mixins";
+@import "../icons";
+
+.stm-search {
+  &_style_1 {
+    [data-toggle='modal'] {
+      display: block;
+      &:focus {
+        outline: none;
+      }
+    }
+    a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 36px;
+      font-size: 10px;
+      &:hover {
+        color: #fff;
+      }
+    }
+    .stm-search {
+      &__icon {
+        font-size: 14px;
+      }
+    }
+  }
+  &_style_2 {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+    .search-form {
+      .form-control {
+        width: 260px;
+        padding-right: 37px;
+        &:focus {
+          + button {
+            background: transparent !important;
+          }
+        }
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 8px 15px !important;
+        background-color: transparent !important;
+        color: inherit !important;
+        border-radius: 0 !important;
+        line-height: 28px;
+        &:after {
+          @include pseudo();
+          position: absolute;
+          bottom: 0;
+          left: -1000px;
+          width: 9999px;
+          height: 1px;
+        }
+      }
+    }
+  }
+  &_style_3 {
+    .form-control {
+      &:focus {
+
+      }
+    }
+    a {
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+  &_style_4 {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+    .search-form {
+      .form-control {
+        width: 210px;
+        background: transparent;
+        border-color: #292929;
+        border-width: 1px;
+        padding: 12px 28px 12px 9px;
+        height: 30px;
+        &:focus {
+          + button {
+            background: transparent !important;
+          }
+          border-color: transparent !important;
+          background: rgba(#fff, 0.10) !important;
+        }
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: -1px;
+        bottom: 0;
+        padding: 8px 10px !important;
+        background-color: transparent !important;
+        color: inherit !important;
+        border-radius: 0 !important;
+        line-height: 16px;
+        font-size: 15px;
+        &:after {
+          @include pseudo();
+          position: absolute;
+          bottom: 0;
+          left: -1000px;
+          width: 9999px;
+          height: 1px;
+        }
+      }
+    }
+  }
+
+  &_style_5 {
+    border-radius: 22px;
+    position: relative;
+    height: 44px;
+    min-width: 165px;
+    width: 100%;
+    z-index: 100;
+
+    .search-form {
+      height: 44px;
+      width: 100%;
+      position: relative;
+      width: 165px;
+      input[type=search] {
+        display: block;
+        border-radius: 22px;
+        background-color: #fff;
+        border: 1px solid #d1d1d1;
+        transition: 0s width, .3s box-shadow !important;
+        &:focus {
+          position: absolute;
+          right: 0 !important;
+          border-color: #d1d1d1 !important;
+          & + button[type=submit] {
+            background-color: transparent !important;
+          }
+        }
+        @media (min-width: 1024px) {
+          &:focus {
+            transition: .3s box-shadow, .3s width ease !important;
+            box-shadow: 0 0 0 999999px rgba(0, 0, 0, .3) !important;
+            position: absolute;
+            right: 0 !important;
+            width: 200px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-color: #d1d1d1 !important;
+            & + button[type=submit] {
+              background-color: transparent !important;
+            }
+          }
+        }
+      }
+      button[type=submit] {
+        padding: 0 20px;
+        background-color: transparent;
+        color: #000;
+        position: absolute;
+        height: 44px;
+        right: 0;
+        top: 0;
+        left: auto;
+        border-radius: 22px;
+        transition: none !important;
+        &:hover {
+          background-color: transparent;
+          color: #000;
+        }
+      }
+    }
+  }
+  &_style_6 {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    .search-form {
+      height: 100%;
+      display: flex;
+      .form-control {
+        width: 270px;
+        background: transparent;
+        border-left: 1px solid rgba(255, 255, 255, .2);
+        border-right: 1px solid rgba(255, 255, 255, .2);
+        border-top-width: 0;
+        border-bottom-width: 0;
+        padding: 0 20px;
+        height: 100%;
+        font-size: 12px;
+        color: inherit !important;
+        &:focus {
+          + button {
+            background: transparent !important;
+          }
+          border-color: transparent !important;
+          background: rgba(#fff, 0.10) !important;
+        }
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: -1px;
+        bottom: 0;
+        padding: 8px 10px !important;
+        background-color: transparent !important;
+        color: inherit !important;
+        border-radius: 0 !important;
+        i {
+          font-size: 10px;
+        }
+        &:after {
+          @include pseudo();
+          position: absolute;
+          bottom: 0;
+          left: -1000px;
+          width: 9999px;
+          height: 1px;
+        }
+      }
+    }
+
+    @include breakpoint(tabletunder) {
+      .search-form {
+        .form-control {
+          border-left-color: #333;
+          width: 100%;
+          min-height: 40px;
+        }
+      }
+    }
+  }
+}
+
+.stm-header__cell_left {
+  .stm-search {
+    &_style_5 {
+      .search-form {
+        input[type=search] {
+          &:focus {
+            left: 0;
+            right: auto;
+            & + button[type=submit] {
+              right: -140px;
+              transition: all .3s ease !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#searchModal {
+  .modal-content {
+    width: 800px;
+    background: transparent;
+    box-shadow: none !important;
+    border: 0;
+    .search-wrapper {
+      position: relative;
+      .search-input {
+        min-height: 60px;
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: 18px;
+        line-height: 60px;
+        border: 0 !important;
+      }
+      .search-submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        padding: 0 25px;
+        line-height: 60px;
+        background: transparent !important;
+        border: none;
+        i {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(tabletunder) {
+  .stm-header__element {
+    .stm-search {
+      position: relative;
+      input {
+        padding-right: 70px;
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-width: 50px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+    }
+  }
+}

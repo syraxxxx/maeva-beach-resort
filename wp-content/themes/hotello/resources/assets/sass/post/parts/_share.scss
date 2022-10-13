@@ -1,0 +1,50 @@
+.stm_share {
+  margin-bottom: 7px;
+  a {
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #bbb;
+    line-height: 20px;
+    text-align: center;
+    color: $white;
+    border-radius: 4px;
+    opacity: 1;
+    &:hover {
+      color: $white;
+      opacity: 0.6;
+    }
+    &.stm_share_facebook {
+      background-color: #627aad;
+    }
+    &.stm_share_twitter {
+      background-color: #4D9ED8;
+    }
+    &.stm_share_linkedin {
+      background-color: #2F75AE;
+    }
+    &.stm_share_google-plus {
+      background-color: #DB4437;
+    }
+    &.stm_share_pinterest {
+      background-color: #BE1626;
+    }
+  }
+  @include breakpoint(mobile) {
+    display: block;
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  @include breakpoint(tablet) {
+    margin: 25px 0 0 !important;
+    a {
+      width: 37px;
+      height: 37px;
+      margin: 0 5px 5px 0;
+      line-height: 40px;
+      font-size: 18px !important;
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,211 @@
+@import "../../mixins";
+
+.stm_wp_hotelier_rooms_carousel_style_1 {
+  position: relative;
+  .stm_wp_hotelier_rooms_carousel {
+    &__head {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 65px;
+    }
+
+    &__categories {
+      list-style: none;
+      font-size: 0;
+      margin: 0 -5px;
+      li {
+        padding: 0 5px;
+        font-size: 16px;
+        display: inline-block;
+        a {
+          font-size: 14px;
+          text-transform: uppercase;
+          position: relative;
+          display: inline-block;
+          padding: 5px 10px;
+          background-color: rgba(#000, .3);
+        }
+      }
+    }
+    &__tab {
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      &.active {
+        height: auto;
+        visibility: visible;
+        opacity: 1;
+        overflow: visible;
+      }
+    }
+    &__title {
+      h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .room {
+    background-color: #fff;
+    height: 400px;
+    &__image {
+      position: relative;
+    }
+    &__price {
+      position: absolute;
+      color: #fff;
+      top: 20px;
+      right: 0;
+      left: auto;
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 26px;
+      padding: 10px 20px;
+      backface-visibility: hidden;
+      > span {
+        font-size: 24px;
+        font-weight: 600;
+        > span {
+          font-weight: normal;
+          font-size: 16px;
+          vertical-align: middle;
+        }
+      }
+    }
+    &__content {
+      padding: 28px 30px;
+    }
+    &__link {
+      @include absoluted();
+      background-color: rgba(#383128, .8);
+      opacity: 0;
+      transition: all .3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &__title {
+
+      h4 {
+        margin-bottom: 5px;
+        a {
+          display: block;
+          transition: all .3s ease;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    &__excerpt {
+      margin-bottom: 25px;
+    }
+    &__occupancy {
+      i {
+        font-size: 30px;
+        vertical-align: sub;
+        margin-right: 5px;
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-top: 10px;
+      border-top: 1px solid #cccccc;
+      color: #333333;
+      span {
+        &:last-child {
+          font-style: italic;
+          font-weight: 600;
+        }
+      }
+      @include breakpoint(mobile) {
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+    //box-shadow: 0px 30px 50px 0px rgba(153, 153, 153, 0.15);
+    margin-bottom: 30px;
+  }
+  .owl-nav {
+    button.owl-prev, button.owl-next {
+      z-index: 50;
+      top: 140px;
+      font-size: 0;
+      border-radius: 50%;
+      border: 2px #333 solid;
+      width: 40px;
+      height: 40px;
+      &:before {
+        position: relative;
+        font-size: 24px;
+        line-height: 36px;
+        text-indent: 0;
+        color: #333;
+        //@include stmicon($stmicon-keyboard_arrow_right);
+      }
+      &:hover {
+        &:before {
+          color: #fff;
+        }
+      }
+    }
+    button.owl-prev {
+      left: -70px;
+      &:before {
+        transform: rotate(180deg);
+        left: -1;
+      }
+    }
+    button.owl-next {
+      right: -70px;
+      &:before {
+        right: -1;
+      }
+    }
+  }
+
+  //contrast
+  &.stm_contrast {
+    .stm_wp_hotelier_rooms_carousel {
+      &__head {
+        a {
+          color: #fff !important;
+        }
+      }
+    }
+    button.owl-prev, button.owl-next {
+      transition: opacity .3s ease;
+      border-color: #fff;
+      opacity: .5;
+      &:before {
+        color: #fff;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  @include breakpoint(tabletunder) {
+    .stm_wp_hotelier_rooms_carousel {
+      &__head {
+        margin-bottom: 30px;
+      }
+      &__categories {
+        margin: 0 auto;
+        a {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .room {
+      height: auto;
+    }
+
+  }
+}

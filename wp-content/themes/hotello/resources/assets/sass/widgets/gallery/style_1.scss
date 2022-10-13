@@ -1,0 +1,26 @@
+//layout 1
+@import "../../variables";
+@import "../../mixins";
+@import "base";
+
+.stm_wp_widget_post_gallery_style_1 {
+  .stm_widget_media {
+    &__single {
+      position: relative;
+      &:after {
+        @include pseudo();
+        @include absoluted();
+        background-color: #000;
+        left: 5px;
+        right: 5px;
+        opacity: 0;
+        transition: .3s ease;
+      }
+      &:hover {
+        &:after {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

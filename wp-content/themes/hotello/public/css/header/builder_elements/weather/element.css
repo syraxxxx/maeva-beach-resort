@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'stmweathericons';
+  src: url("stmweathericons.eot?xql9xj");
+  src: url("stmweathericons.eot?xql9xj#iefix") format("embedded-opentype"), url("stmweathericons.ttf?xql9xj") format("truetype"), url("stmweathericons.woff?xql9xj") format("woff"), url("stmweathericons.svg?xql9xj#stmweathericons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="stmweathericon-"], [class*=" stmweathericon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'stmweathericons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stmweathericon-01d:before {
+    content: "";
+}
+
+.stmweathericon-01n:before {
+    content: "";
+}
+
+.stmweathericon-02d:before {
+    content: "";
+}
+
+.stmweathericon-02n:before {
+    content: "";
+}
+
+.stmweathericon-03d:before {
+    content: "";
+}
+
+.stmweathericon-03n:before {
+    content: "";
+}
+
+.stmweathericon-04d:before {
+    content: "";
+}
+
+.stmweathericon-04n:before {
+    content: "";
+}
+
+.stmweathericon-09d:before {
+    content: "";
+}
+
+.stmweathericon-09n:before {
+    content: "";
+}
+
+.stmweathericon-10d:before {
+    content: "";
+}
+
+.stmweathericon-10n:before {
+    content: "";
+}
+
+.stmweathericon-11d:before {
+    content: "";
+}
+
+.stmweathericon-11n:before {
+    content: "";
+}
+
+.stmweathericon-13d:before {
+    content: "";
+}
+
+.stmweathericon-13n:before {
+    content: "";
+}
+
+.stmweathericon-50d:before {
+    content: "";
+}
+
+.stmweathericon-50n:before {
+    content: "";
+}
+
+.stm_weather {
+    position: relative;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.stm_weather .temperature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_weather .temperature .degree {
+    font-weight: normal !important;
+}
+
+.stm_weather .temperature .degree:after {
+    content: '°';
+    margin-right: 5px;
+}
+
+.stm_weather [class*=stmweathericon] {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.stm_weather:after {
+    content: '';
+    display: block;
+    height: 40px;
+    width: 1px;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    margin-top: -10px;
+    background: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,5052 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotello\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-08 10:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/admin/product_registration/screens/system_status.php:142
+#: inc/admin/product_registration/screens/system_status.php:178
+#: inc/admin/product_registration/screens/system_status.php:207
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:222
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
+"prohibit the Theme Options data from being saved to your database. See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Suhosin "
+"Configuration Info</a>."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:110
+#, php-format
+msgid ""
+"%1$s - We recommend setting max execution time to at least 180. <br /> To "
+"import classic demo content, <strong>300</strong> seconds of max execution "
+"time is required.<br />See: <a href=\"%2$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: inc/comments.php:31
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/admin/tgm/plugin-activation.php:3696
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/admin/tgm/plugin-activation.php:3704
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:132
+#: inc/plugins_mods/wp-hotelier/index.php:27
+#: inc/plugins_mods/wp-hotelier/class-hotel-room.php:200
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:112
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:56
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:56
+#, php-format
+msgid "%1s adult(s)"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:134
+#: inc/plugins_mods/wp-hotelier/index.php:29
+#: inc/plugins_mods/wp-hotelier/class-hotel-room.php:202
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:114
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:58
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:58
+#, php-format
+msgid "%1s child(ren)"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item-guests.php:43
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item-guests.php:43
+#, php-format
+msgid "%d Children"
+msgstr ""
+
+#: resources/partials/header/elements/cart/quantity_with_text.php:2
+#, php-format
+msgid "%d item in Cart"
+msgid_plural "%d items in Cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/partials/header/elements/popup/popup.php:24
+#: resources/partials/header/elements/iconbox/iconbox.php:35
+#: resources/partials/header/elements/icontext/icontext.php:15
+#: resources/partials/header/elements/button/button.php:29
+#: resources/partials/header/elements/buttonext/buttonext.php:28
+#: resources/partials/header/elements/buttonext/buttonext.php:31
+#: resources/partials/header/elements/dropdown/styles/style_1.php:23
+#: resources/partials/header/elements/dropdown/styles/style_1.php:34
+#: resources/partials/header/elements/dropdown/styles/style_2.php:24
+#: resources/partials/header/elements/dropdown/styles/style_2.php:34
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item-guests.php:39
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item-guests.php:39
+#, php-format
+msgid "%s Adult"
+msgid_plural "%s Adults"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/max-guests.php:28
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/max-guests.php:28
+#, php-format
+msgid "%s adult(s)"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:15
+#, php-format
+msgid ""
+"%s comes with 6 months of free support for every license you purchase. "
+"Support can be extended through subscriptions via ThemeForest."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rooms-left.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rooms-left.php:25
+#, php-format
+msgid "%s room left!"
+msgid_plural "%s rooms left!"
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+msgid ", "
+msgstr ""
+
+#: resources/partials/content/none.php:46
+msgid "0 results"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:47
+msgid "1"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:48
+msgid "2"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:49
+msgid "3"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:50
+msgid "4"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1426
+msgid "404"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1411
+msgid "404 Page"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:99
+#, php-format
+msgid "<span>From</span> %s"
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:73
+msgid ""
+"A new page will load with a token number in a box. Copy the token number "
+"then come back to this registration page and paste it into the field below "
+"and click the <strong>Submit</strong> button."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-cards.php:5
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-cards.php:5
+msgid "Accepted credit cards"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:497
+msgid "Accordion global style"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2897
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:131
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:345
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:68
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/admin/tgm/plugin-activation.php:2781
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:346
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:131
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:68
+#, php-format
+msgid "Activate &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:107
+msgid "Activate Plugin"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2477
+msgid "Active"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:254
+#: inc/admin/product_registration/screens/system_status.php:259
+msgid "Active Plugins"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/intro.php:19
+msgid "Active Theme"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/section/items.php:10
+msgid ""
+"Add Envato Market themes & plugins using multiple OAuth tokens. This is "
+"especially useful when an item has been purchased on behalf of a third-party."
+" This works similarly to the global OAuth Personal Token, but for individual "
+"items and additionally requires the Envato Market item ID."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:215
+#: inc/admin/theme_options/includes/presets.php:368
+#: inc/admin/theme_options/includes/presets.php:799
+#: inc/admin/theme_options/includes/presets.php:911
+#: inc/admin/theme_options/includes/presets.php:990
+#: inc/admin/theme_options/includes/presets.php:1051
+#: inc/admin/theme_options/includes/presets.php:1443
+#: inc/admin/theme_options/includes/presets.php:1642
+#: inc/admin/theme_options/includes/presets.php:1720
+msgid "Add image"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:424
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/setting/items.php:37
+msgid "Add Item"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:839
+#: inc/admin/theme_options/includes/presets.php:1669
+msgid "Add new"
+msgstr ""
+
+#: inc/widgets/contacts.php:50 inc/vc/modules/google_map.php:92
+#: inc/vc/modules/google_map.php:106 inc/vc/modules/contacts_widget.php:20
+msgid "Address"
+msgstr ""
+
+#: inc/widgets/contacts.php:164
+msgid "Address:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table-guests.php:40
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table-guests.php:40
+msgid "Adults"
+msgstr ""
+
+#: inc/vc/modules/button.php:166 inc/vc/modules/button.php:182
+#: inc/vc/modules/button.php:189
+msgid "Advanced"
+msgstr ""
+
+#: inc/vc/modules/separator.php:56
+msgid "Align"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:19
+msgid "All"
+msgstr ""
+
+#: inc/vc/modules/cf7.php:15
+msgid "All contact forms"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3697
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3705
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:169
+#: inc/vc/modules/images_gallery_with_categories.php:173
+#: inc/vc/modules/images_gallery_with_categories.php:173
+#: inc/vc/modules/images_gallery_with_categories.php:180
+#: inc/vc/modules/images_gallery_with_categories.php:180
+msgid "All photos"
+msgstr ""
+
+#. 1: dashboard link.
+#: inc/admin/tgm/plugin-activation.php:406
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/notice/success-single-use.php:11
+msgid "All Single Use OAuth Personal Tokens have been verified."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/ajax.php:54
+msgid "Already booked. Check your cart - "
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/api.php:135
+msgid "An API token is required."
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: inc/admin/tgm/plugin-activation.php:3688
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:823
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:882
+msgid "An error occurred, please check that the item ID is correct."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/api.php:148
+#: inc/admin/product_registration/includes/envato-market/inc/api.php:152
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1081
+msgid "An unknown error occurred."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:366
+msgid "An unknown error occurred. Try again."
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:134
+#: inc/plugins_mods/wp-hotelier/index.php:29
+#: inc/plugins_mods/wp-hotelier/class-hotel-room.php:202
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:114
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:58
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:58
+msgid "and"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/max-guests.php:30
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/max-guests.php:30
+#, php-format
+msgid "and %s child(ren)"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:17
+msgid "Animated carousel with images"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:59
+msgid "Animated gradient background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1457
+msgid "Archive"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:159
+msgid "Arrows"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2644
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-13.php:8
+msgid "Author:"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:189
+msgid "Autoplay"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:69
+msgid "Autoscroll"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/room-rates.php:28
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/room-rates.php:28
+msgid "Available rates"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2672
+msgid "Available version:"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:136
+msgid "Avatar size"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:357
+#: inc/admin/theme_options/includes/presets.php:1694
+msgid "Background color"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:145
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:364
+#: inc/admin/theme_options/includes/presets.php:907
+#: inc/admin/theme_options/includes/presets.php:986
+#: inc/admin/theme_options/includes/presets.php:1047
+#: inc/admin/theme_options/includes/presets.php:1439
+#: inc/admin/theme_options/includes/presets.php:1638
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:797
+msgid "Background image for whole header"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:78 inc/vc/vc_core_params.php:188
+#: inc/vc/vc_core_params.php:204
+msgid "Background position"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:46
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:46
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/meta.php:30
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/meta.php:30
+msgid "Bed size(s):"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/theme_options/includes/presets.php:164
+msgid "Behance"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1321
+msgid "Blockquote Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1327
+msgid "Blockquote style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1454
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1463
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1475
+msgid "Blog view"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1101
+msgid "Body font"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:129
+msgid "Bold"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:2614
+msgid "Bold (700)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:2613
+msgid "Bolder (800)"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/enqueue.php:11
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/add-to-cart.php:49
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/add-to-cart.php:49
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-add-to-cart.php:48
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-add-to-cart.php:48
+msgid "Book now"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:146
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:26
+#, php-format
+msgid "Book now %s"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/add-to-cart.php:47
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/add-to-cart.php:47
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-add-to-cart.php:46
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-add-to-cart.php:46
+msgctxt "book now button text: plural"
+msgid "rooms selected"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/add-to-cart.php:46
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/add-to-cart.php:46
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-add-to-cart.php:45
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-add-to-cart.php:45
+msgctxt "book now button text: singular"
+msgid "room selected"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:144
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:24
+#, php-format
+msgid "Book now from %s"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-details.php:21
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:18
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-details.php:21
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:18
+msgid "Booking details"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_widget_booking.php:13
+msgid "Booking info"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:16
+msgid "Both"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:15 inc/vc/vc_core_params.php:123
+#: inc/vc/vc_core_params.php:237 inc/vc/modules/carousel_gallery.php:210
+#: inc/admin/theme_options/includes/presets.php:1248
+msgid "Bottom"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:780
+#: inc/admin/theme_options/includes/presets.php:999
+msgid "Bottom bar"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1026
+msgid "Bottom bar background color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1040
+msgid "Bottom bar link color on hover"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1033
+msgid "Bottom bar text color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:852
+msgid "Build your dream"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:174
+msgid "Bullets"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:119
+msgid "Bump position"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:97
+#: inc/admin/theme_options/includes/presets.php:443
+#: inc/admin/theme_options/includes/presets.php:444
+#: inc/admin/theme_options/includes/presets.php:445
+#: inc/admin/theme_options/includes/presets.php:446
+#: inc/admin/theme_options/includes/presets.php:447
+#: inc/admin/theme_options/includes/presets.php:448
+#: inc/admin/theme_options/includes/presets.php:449
+msgid "Button"
+msgstr ""
+
+#: inc/vc/modules/button.php:243
+msgid "Button background color"
+msgstr ""
+
+#: inc/vc/modules/button.php:254
+msgid "Button background color on hover"
+msgstr ""
+
+#: inc/vc/modules/button.php:288
+msgid "Button background first color"
+msgstr ""
+
+#: inc/vc/modules/button.php:299
+msgid "Button background second color"
+msgstr ""
+
+#: inc/vc/modules/button.php:221
+msgid "Button border color"
+msgstr ""
+
+#: inc/vc/modules/button.php:232
+msgid "Button border color on hover"
+msgstr ""
+
+#: inc/vc/modules/button.php:266
+msgid "Button border first color"
+msgstr ""
+
+#: inc/vc/modules/button.php:277
+msgid "Button border second color"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:27 inc/vc/modules/button.php:197
+msgid "Button color scheme"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:78
+msgid "Button Custom Border Color"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:90
+msgid "Button Custom Border Color on hover"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:53
+msgid "Button Custom Color"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:66
+msgid "Button Custom Color on hover"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:102
+msgid "Button Custom Text Color"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:114
+msgid "Button Custom Text Color on hover"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:101
+msgid "Button Extended"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:171 inc/vc/modules/button.php:74
+msgid "Button icon"
+msgstr ""
+
+#: inc/vc/modules/button.php:127
+msgid "Button icon background"
+msgstr ""
+
+#: inc/vc/modules/button.php:139
+msgid "Button icon background on hover"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:159 inc/vc/modules/button.php:61
+msgid "Button icon position"
+msgstr ""
+
+#: inc/vc/modules/button.php:151
+msgid "Button icon size"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:21 inc/vc/modules/button.php:19
+msgid "Button link"
+msgstr ""
+
+#: inc/vc/modules/button.php:48
+msgid "Button Position"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:40 inc/vc/modules/button.php:36
+msgid "Button size"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:148 inc/vc/modules/button.php:25
+msgid "Button style"
+msgstr ""
+
+#: inc/vc/modules/button.php:165
+msgid "Button subtitle"
+msgstr ""
+
+#: inc/vc/modules/button.php:311
+msgid "Button text color"
+msgstr ""
+
+#: inc/vc/modules/button.php:318
+msgid "Button text color on hover"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:415
+msgid "Button title"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:423
+msgid "Button url"
+msgstr ""
+
+#: inc/vc/modules/button.php:14
+msgid "Button with custom styles"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:435
+msgid "Buttons global style"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:198
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:408
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:465
+msgid "By"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:290
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:365
+msgid "Cancel"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/cancel-reservation.php:20
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/cancel-reservation.php:20
+msgid "Cancel reservation"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:26
+msgid "Carousel"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:81
+#: inc/vc/modules/carousel_gallery.php:88
+#: inc/vc/modules/carousel_gallery.php:99
+#: inc/vc/modules/carousel_gallery.php:110
+#: inc/vc/modules/carousel_gallery.php:121
+#: inc/vc/modules/carousel_gallery.php:136
+#: inc/vc/modules/carousel_gallery.php:147
+#: inc/vc/modules/carousel_gallery.php:155
+#: inc/vc/modules/carousel_gallery.php:166
+#: inc/vc/modules/carousel_gallery.php:180
+#: inc/vc/modules/carousel_gallery.php:191
+#: inc/vc/modules/carousel_gallery.php:202
+#: inc/vc/modules/carousel_gallery.php:217
+#: inc/vc/modules/posts_carousel.php:133 inc/vc/modules/posts_carousel.php:144
+#: inc/vc/modules/posts_carousel.php:155 inc/vc/modules/posts_carousel.php:170
+#: inc/vc/modules/posts_carousel.php:185 inc/vc/modules/posts_carousel.php:200
+#: inc/vc/modules/posts_carousel.php:215
+msgid "Carousel Settings"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:42
+msgid "Carousel width"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:12
+msgid "Carousels"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:139
+msgid "Cart"
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-2.php:11
+#: resources/partials/content/post/parts/postinfo-3.php:10
+msgid "Category:"
+msgstr ""
+
+#: resources/partials/content/post/archive_layouts/list/style_1.php:27
+msgid "Category: "
+msgstr ""
+
+#: inc/vc/helpers.php:90 inc/vc/modules/iconbox.php:64
+#: inc/vc/modules/iconbox.php:75 inc/vc/modules/button.php:53
+#: inc/admin/theme_options/includes/presets.php:316
+msgid "Center"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:164
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/envato-market.php:161
+#: inc/admin/product_registration/includes/envato-market/envato-market.php:172
+#: inc/admin/product_registration/includes/envato-market/inc/items.php:104
+#: inc/admin/product_registration/includes/envato-market/inc/items.php:115
+#: inc/admin/product_registration/includes/envato-market/inc/github.php:91
+#: inc/admin/product_registration/includes/envato-market/inc/github.php:102
+#: inc/admin/product_registration/includes/envato-market/inc/api.php:84
+#: inc/admin/product_registration/includes/envato-market/inc/api.php:95
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:81
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:92
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/enqueue.php:10
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/availability-form.php:86
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/availability-form.php:86
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/rate/rate-button.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/rate/rate-button.php:23
+msgid "Check availability"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:111
+#: inc/plugins_mods/wp-hotelier/class-hotel-room.php:180
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content-room.php:39
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content-room.php:39
+msgid "Check details"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/datepicker.php:42
+#: inc/plugins_mods/wp-hotelier/templates/chicago/global/datepicker.php:31
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/datepicker.php:42
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/global/datepicker.php:31
+msgid "Check Rates"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_form.php:73
+msgid "Check rates"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/filters.php:36
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-details.php:29
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-details.php:29
+msgid "Check-in"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:31
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:31
+msgid "Check-in:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/filters.php:44
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-details.php:33
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-details.php:33
+msgid "Check-out"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:36
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:36
+msgid "Check-out:"
+msgstr ""
+
+#: resources/partials/header/elements/cart/mini-cart.php:49
+msgid "Checkout"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1468
+msgid "Chicago"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_form.php:60
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table-guests.php:57
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table-guests.php:57
+msgid "Children"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:32
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:32
+msgid "Children:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:71
+#, php-format
+msgid ""
+"Click on this <a href=\"%s\" target=\"_blank\">Generate A Personal Token</a> "
+"link. <strong>IMPORTANT:</strong> You must be logged into the same "
+"Themeforest account that purchased %s. If you are logged in already, look in "
+"the top menu bar to ensure it is the right account. If you are not logged in,"
+" you will be directed to login then directed back to the Create A Token Page."
+msgstr ""
+
+#: inc/admin/notifications/tgm/main.php:25
+#: inc/admin/notifications/tgm/main.php:27
+#: inc/admin/notifications/tgm/main.php:38
+#, php-format
+msgid "Click to %s"
+msgstr ""
+
+#: inc/vc/modules/separator.php:16
+msgid "Color"
+msgstr ""
+
+#: inc/vc/modules/button.php:204 inc/vc/modules/button.php:217
+#: inc/vc/modules/button.php:228 inc/vc/modules/button.php:239
+#: inc/vc/modules/button.php:250 inc/vc/modules/button.php:261
+#: inc/vc/modules/button.php:273 inc/vc/modules/button.php:284
+#: inc/vc/modules/button.php:295 inc/vc/modules/button.php:306
+#: inc/vc/modules/button.php:314 inc/vc/modules/button.php:321
+#: inc/admin/theme_options/includes/presets.php:1062
+msgid "Colors"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:44
+msgid "Columns"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:137
+msgid "Columns number in Laptop"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:148
+msgid "Columns number in Tablet"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:126
+msgid "Colums number in Desktop"
+msgstr ""
+
+#: comments.php:32
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-13.php:17
+msgid "Comments:"
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-4.php:8
+msgid "Comments: "
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:86
+msgid "Community Forum"
+msgstr ""
+
+#: inc/widgets/contacts.php:127
+msgid "Contact"
+msgstr ""
+
+#: inc/vc/modules/contacts_widget.php:10
+msgid "Contact info in footer area"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/contacts.php:13
+msgid "Contacts"
+msgstr ""
+
+#: inc/widgets/contacts.php:14
+msgid "Contacts widget"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:965
+msgid "Container"
+msgstr ""
+
+#: inc/vc/modules/spacer.php:7 inc/vc/modules/posts_list.php:10
+#: inc/vc/modules/icon.php:9 inc/vc/modules/carousel_gallery.php:14
+#: inc/vc/modules/google_map.php:16 inc/vc/modules/posts_carousel.php:35
+#: inc/vc/modules/contact.php:11 inc/vc/modules/contacts_widget.php:7
+#: inc/vc/modules/images_gallery_with_categories.php:14
+#: inc/vc/modules/iconbox.php:11 inc/vc/modules/cf7.php:17
+#: inc/vc/modules/separator.php:7 inc/vc/modules/separator.php:12
+#: inc/vc/modules/call_to_action.php:8 inc/vc/modules/button.php:11
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_widget_booking.php:10
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:15
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_form.php:13
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_carousel.php:12
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:30
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:22
+msgid "Content"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:60
+msgid "Content align"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:29 inc/vc/modules/posts_list.php:39
+#: inc/vc/modules/posts_carousel.php:49 inc/vc/modules/posts_carousel.php:94
+#: inc/vc/modules/posts_carousel.php:101 inc/vc/modules/posts_carousel.php:108
+#: inc/vc/modules/posts_carousel.php:115 inc/vc/modules/posts_carousel.php:122
+msgid "Content options"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1678
+msgid "Copyright"
+msgstr ""
+
+#: resources/partials/footer/parts/_copyright.php:9
+msgid "Copyright &copy;"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1708
+msgid "Copyright text"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/form-pay.php:25
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:31
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-table.php:31
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/form-pay.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:31
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-table.php:31
+msgid "Cost"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:18
+msgid "Create A Support Account"
+msgstr ""
+
+#: inc/vc/helpers.php:69
+msgid "Css"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:23 inc/vc/modules/call_to_action.php:36
+#: inc/vc/modules/call_to_action.php:48 inc/vc/modules/call_to_action.php:60
+#: inc/vc/modules/call_to_action.php:73 inc/vc/modules/call_to_action.php:85
+#: inc/vc/modules/call_to_action.php:97 inc/vc/modules/call_to_action.php:109
+#: inc/vc/modules/call_to_action.php:121 inc/vc/modules/call_to_action.php:133
+#: inc/vc/modules/call_to_action.php:144 inc/vc/modules/call_to_action.php:155
+#: inc/vc/modules/call_to_action.php:167 inc/vc/modules/call_to_action.php:178
+#: inc/vc/modules/call_to_action.php:190
+msgid "CTA Button"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:114
+msgid ""
+"Current time limit is sufficient, but if you need import demo content, the "
+"required time is <strong>300</strong>."
+msgstr ""
+
+#: inc/vc/vc_core_params.php:255 inc/vc/helpers.php:82 inc/vc/helpers.php:101
+#: inc/vc/modules/iconbox.php:88 inc/vc/modules/call_to_action.php:33
+#: inc/vc/modules/button.php:90 inc/vc/modules/button.php:214
+#: inc/admin/theme_options/includes/presets.php:63
+msgid "Custom"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:80
+#: inc/vc/modules/button.php:187
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:48
+msgid "Custom class"
+msgstr ""
+
+#: inc/vc/modules/separator.php:23
+msgid "Custom color"
+msgstr ""
+
+#: inc/vc/modules/contact.php:14
+msgid "Custom contact block"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:65
+msgid "Custom select"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:104
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:104
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:31
+msgid "Date"
+msgstr ""
+
+#: resources/partials/global/titlebox/style_1.php:54
+msgid "Date Archive"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:27
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:27
+msgid "Date:"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:318
+msgid "Deactivate"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:319
+#, php-format
+msgid "Deactivate %s"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:167 inc/vc/vc_core_params.php:281
+#: inc/vc/modules/button.php:39 inc/vc/modules/button.php:89
+#: inc/vc/modules/button.php:200
+#: inc/admin/theme_options/includes/presets.php:1490
+#: inc/admin/theme_options/includes/presets.php:1534
+#: inc/admin/theme_options/includes/presets.php:1793
+#: inc/admin/theme_options/includes/presets.php:1837
+msgid "Default"
+msgstr ""
+
+#: inc/vc/modules/spacer.php:11
+msgid "Default Spacer height"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:225
+msgid "Defines the main content width"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:216
+msgid ""
+"Defines the maximum length of a variable that is registered through a POST "
+"request."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:331
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:397
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/setting/items.php:24
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:332
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:172
+msgid "Delicious"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:84
+msgid "Demo content"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:55
+#: inc/admin/product_registration/includes/admin_screens.php:56
+msgid "Demo import"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:58
+msgid "Demo Installation"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:138
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:138
+msgid "Deposit due after confirm:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:129
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:129
+msgid "Deposit due now:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/deposit.php:39
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/deposit.php:39
+msgid "Deposit may be required"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/deposit.php:26
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/deposit.php:42
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/deposit.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/deposit.php:42
+msgid "Deposit not required"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/deposit.php:21
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/deposit.php:21
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/rate/rate-deposit.php:19
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/deposit.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/rate/rate-deposit.php:19
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/deposit.php:23
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-deposit.php:19
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-deposit.php:19
+msgid "Deposit required"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/enqueue.php:14
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/availability-form.php:80
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/availability-form.php:80
+msgid "Deposit required: "
+msgstr ""
+
+#: inc/vc/vc_core_params.php:19 inc/vc/vc_core_params.php:33
+#: inc/vc/vc_core_params.php:44 inc/vc/vc_core_params.php:55
+#: inc/vc/vc_core_params.php:62 inc/vc/vc_core_params.php:68
+#: inc/vc/vc_core_params.php:74 inc/vc/vc_core_params.php:82
+#: inc/vc/vc_core_params.php:93 inc/vc/vc_core_params.php:104
+#: inc/vc/vc_core_params.php:115 inc/vc/vc_core_params.php:130
+#: inc/vc/vc_core_params.php:141 inc/vc/vc_core_params.php:151
+#: inc/vc/vc_core_params.php:192 inc/vc/vc_core_params.php:208
+#: inc/vc/vc_core_params.php:228 inc/vc/vc_core_params.php:245
+#: inc/vc/vc_core_params.php:262 inc/vc/vc_core_params.php:274
+#: inc/vc/vc_core_params.php:286 inc/vc/helpers.php:10 inc/vc/helpers.php:17
+#: inc/vc/helpers.php:24 inc/vc/helpers.php:31 inc/vc/helpers.php:38
+msgid "Design Options"
+msgstr ""
+
+#: inc/vc/helpers.php:71
+msgid "Design options"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:40 inc/vc/vc_core_params.php:51
+#: inc/vc/vc_core_params.php:111 inc/vc/vc_core_params.php:137
+#: inc/vc/modules/icon.php:37 inc/vc/modules/icon.php:99
+#: inc/vc/modules/carousel_gallery.php:52
+#: inc/vc/modules/carousel_gallery.php:61
+#: inc/vc/modules/carousel_gallery.php:71
+#: inc/vc/modules/carousel_gallery.php:97
+#: inc/vc/modules/carousel_gallery.php:108
+#: inc/vc/modules/carousel_gallery.php:134
+#: inc/vc/modules/carousel_gallery.php:145
+#: inc/vc/modules/carousel_gallery.php:178
+#: inc/vc/modules/carousel_gallery.php:189
+#: inc/vc/modules/carousel_gallery.php:200 inc/vc/modules/testimonials.php:30
+#: inc/vc/modules/testimonials.php:73 inc/vc/modules/iconbox.php:144
+#: inc/vc/modules/button.php:174
+msgid "Disable"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:47 inc/vc/modules/google_map.php:50
+msgid "Disable carousel"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:69
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:101
+msgid "Disabled"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:407
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:59
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: inc/vc/modules/button.php:171
+msgid "Divider"
+msgstr ""
+
+#: inc/vc/modules/separator.php:5
+msgid "Divider line"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:49
+msgid "Documentation"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:207
+msgid "Dots position"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader.php:48
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader.php:89
+msgid "Downloading the Envato Market install package&#8230;"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader.php:36
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader.php:77
+msgid "Downloading the Envato Market upgrade package&#8230;"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:165
+msgid "Dribbble"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:173
+msgid "Dropbox"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:60
+msgid "Dropdown"
+msgstr ""
+
+#: inc/comments.php:68
+msgid "E-mail"
+msgstr ""
+
+#: inc/widgets/contacts.php:185
+msgid "E-mail:"
+msgstr ""
+
+#: inc/comments.php:34
+msgid "Edit"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:102
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:429
+msgid "Elements styles"
+msgstr ""
+
+#: vc_templates/stm_google_map_address.php:42 inc/widgets/contacts.php:82
+#: inc/vc/modules/google_map.php:116 inc/vc/modules/contact.php:44
+#: inc/vc/modules/contacts_widget.php:35
+msgid "Email"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/guest-details.php:34
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/guest-details.php:34
+msgid "Email:"
+msgstr ""
+
+#: vc_templates/stm_contact.php:32
+msgid "Email: "
+msgstr ""
+
+#: inc/vc/modules/spacer.php:4
+msgid "Empty block for paddings"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:41 inc/vc/vc_core_params.php:52
+#: inc/vc/vc_core_params.php:112 inc/vc/vc_core_params.php:138
+#: inc/vc/modules/icon.php:36 inc/vc/modules/carousel_gallery.php:51
+#: inc/vc/modules/carousel_gallery.php:62
+#: inc/vc/modules/carousel_gallery.php:72
+#: inc/vc/modules/carousel_gallery.php:96
+#: inc/vc/modules/carousel_gallery.php:107
+#: inc/vc/modules/carousel_gallery.php:133
+#: inc/vc/modules/carousel_gallery.php:144
+#: inc/vc/modules/carousel_gallery.php:177
+#: inc/vc/modules/carousel_gallery.php:188
+#: inc/vc/modules/carousel_gallery.php:199 inc/vc/modules/testimonials.php:29
+#: inc/vc/modules/testimonials.php:72 inc/vc/modules/iconbox.php:143
+#: inc/vc/modules/button.php:175
+#: inc/admin/theme_options/includes/presets.php:1773
+#: inc/admin/theme_options/includes/presets.php:1882
+msgid "Enable"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:55
+msgid "Enable \"Load more button\""
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1774
+#: inc/admin/theme_options/includes/presets.php:1883
+msgid "Enable Archive Page"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:93
+msgid "Enable Autoscroll"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:58
+msgid "Enable Border"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:399
+msgid "Enable breadcrumbs"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:51
+msgid "Enable carousel"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:97
+msgid "Enable center mode"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_carousel.php:25
+msgid "Enable contrast version"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:196
+msgid "Enable dots"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:141
+msgid "Enable Full Carousel Visibility"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:49
+msgid "Enable heading divider"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1235
+msgid "Enable headings line"
+msgstr ""
+
+#: inc/vc/modules/icon.php:33
+msgid "Enable icon gradient"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:174
+msgid "Enable image description"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:48
+msgid "Enable LightGallery"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:104
+msgid "Enable Navigation"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:185
+msgid "Enable pagination"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:245
+msgid "Enable preloader"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:68
+msgid "Enable Retina"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1652
+msgid "Enable scroll top button"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1775
+#: inc/admin/theme_options/includes/presets.php:1884
+msgid "Enable Single Page"
+msgstr ""
+
+#: inc/vc/modules/icon.php:96
+msgid "Enable styled background"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:130
+msgid "Enable thumbnails"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:287
+msgid "Enable title box"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:407
+msgid "Enable title box button"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:100
+msgid "Enabled"
+msgstr ""
+
+#: inc/header_helpers.php:94
+msgid "English"
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:72
+msgid ""
+"Enter a name for your token, then check the boxes for <strong>View Your "
+"Envato Account Username, Download Your Purchased Items, Verify Purchases "
+"You've Made</strong> and <strong>List Purchases You've Made</strong> from "
+"the permissions needed section. Check the box to agree to the terms and "
+"conditions, then click the <strong>Create Token button</strong>"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:207
+msgid "Enter background position (X, Y) in px or %. Ex.: 50% 50% or 100px 50px"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:81 inc/vc/vc_core_params.php:191
+msgid "Enter background position in px or %. Ex.: 50% 50% or 100px 50px"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:44
+msgid "Enter carousel width. Ex. : 500px or 70%"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1104
+#: inc/admin/theme_options/includes/presets.php:1136
+#: inc/admin/theme_options/includes/presets.php:1153
+#: inc/admin/theme_options/includes/presets.php:1170
+#: inc/admin/theme_options/includes/presets.php:1187
+#: inc/admin/theme_options/includes/presets.php:1204
+#: inc/admin/theme_options/includes/presets.php:1221
+msgid "Enter font size (px)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:838
+#: inc/admin/theme_options/includes/presets.php:1668
+msgid "Enter full URL"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:61
+msgid "Enter gradient colors on each line"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:114
+msgid "Enter icon height in px"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:107
+msgid "Enter icon size in px"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:121
+msgid "Enter icon width in px"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:38
+#: inc/vc/modules/carousel_gallery.php:165 inc/vc/modules/contact.php:30
+msgid "Enter image size in pixels: 200x100 (Width x Height)."
+msgstr ""
+
+#: inc/widgets/gallery.php:134 inc/vc/modules/google_map.php:43
+#: inc/vc/modules/images_gallery_with_categories.php:73
+#: inc/vc/modules/testimonials.php:137
+msgid ""
+"Enter image size. Example 100x100, will crop image with 100px width and "
+"100px height"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1107
+#: inc/admin/theme_options/includes/presets.php:1139
+#: inc/admin/theme_options/includes/presets.php:1156
+#: inc/admin/theme_options/includes/presets.php:1173
+#: inc/admin/theme_options/includes/presets.php:1190
+#: inc/admin/theme_options/includes/presets.php:1207
+#: inc/admin/theme_options/includes/presets.php:1224
+msgid "Enter letter spacing (px)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1106
+#: inc/admin/theme_options/includes/presets.php:1138
+#: inc/admin/theme_options/includes/presets.php:1155
+#: inc/admin/theme_options/includes/presets.php:1172
+#: inc/admin/theme_options/includes/presets.php:1189
+#: inc/admin/theme_options/includes/presets.php:1206
+#: inc/admin/theme_options/includes/presets.php:1223
+msgid "Enter line height (px)"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:26
+msgid "Enter map height in px"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1140
+#: inc/admin/theme_options/includes/presets.php:1157
+#: inc/admin/theme_options/includes/presets.php:1174
+#: inc/admin/theme_options/includes/presets.php:1191
+#: inc/admin/theme_options/includes/presets.php:1208
+#: inc/admin/theme_options/includes/presets.php:1225
+msgid "Enter margin bottom (px)"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:154
+msgid "Enter number of visible thumbnails"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:429
+msgid "Enter the Envato API Personal Token."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:432
+msgid "Enter the Envato Item ID."
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:153
+msgid "Enter url for box"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/setting/token.php:13
+msgid "Enter your Envato API Personal Token."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/intro.php:12
+msgid "Envato Market"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:521
+msgid "Envato Market Items"
+msgstr ""
+
+#: inc/admin/theme_options/includes/helpers.php:40
+#: inc/admin/product_registration/includes/theme.php:173
+msgid "Error occured"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1416
+msgid "Error Page style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1467
+#: inc/admin/product_registration/screens/install_demo.php:10
+msgid "Esperanza"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2450
+msgid "External Source"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:80
+msgid "Extra class name"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:157
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets/contacts.php:72 inc/vc/modules/contacts_widget.php:30
+msgid "Fax"
+msgstr ""
+
+#: inc/widgets/contacts.php:178
+msgid "Fax:"
+msgstr ""
+
+#: resources/partials/content/stm_services/layouts/layout_2.php:45
+msgid "Features"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:166
+msgid "Flickr"
+msgstr ""
+
+#: resources/partials/header/elements/socials/socials.php:28
+msgid "Follow"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1606
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1624
+msgid "Footer background color"
+msgstr ""
+
+#: inc/setup.php:48
+#, php-format
+msgid "Footer Col %s"
+msgstr ""
+
+#: inc/setup.php:50
+msgid "Footer Column that appears at the bottom of the page."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1684
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1631
+msgid "Footer text color"
+msgstr ""
+
+#: inc/vc/modules/cf7.php:35
+msgid "Form class"
+msgstr ""
+
+#: inc/vc/modules/cf7.php:29
+msgid "Form id"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:463
+msgid "Forms global style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:161
+msgid "Foursquare"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:119
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/price.php:34
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/price.php:34
+msgid "From"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:964
+msgid "Full"
+msgstr ""
+
+#: inc/vc/modules/button.php:54
+#: inc/admin/theme_options/includes/presets.php:954
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:203
+#: inc/admin/theme_options/includes/presets.php:1382
+msgid "General"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/section/oauth.php:12
+msgid "generate a personal token"
+msgstr ""
+
+#: inc/admin/theme_options/screen.php:17
+msgid "Get my settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:167
+msgid "Git"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:496
+msgid "Global OAuth Personal Token"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:206
+#: inc/admin/theme_options/includes/presets.php:1065
+msgid "Global Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1428
+msgid "Go back to homepage"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:178
+msgid "Google"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:179
+msgid "Google +"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:274
+msgid "Google analytics ID"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:267
+msgid "Google API key"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:260
+msgid "Google API settings"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:30
+msgid "Grayscale"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1479
+msgid "Grid"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/guest-details.php:21
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/guest-details.php:21
+msgid "Guest details"
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_form.php:47
+msgid "Guests"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:26
+msgid "Guests:"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:27
+#: inc/admin/theme_options/includes/presets.php:337
+msgid "H1"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1133
+msgid "H1 font style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:28
+#: inc/admin/theme_options/includes/presets.php:338
+msgid "H2"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1150
+msgid "H2 font style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:29
+#: inc/admin/theme_options/includes/presets.php:339
+msgid "H3"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1167
+msgid "H3 font style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:30
+msgid "H4"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1184
+msgid "H4 font style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:31
+#: inc/admin/theme_options/includes/presets.php:340
+msgid "H5"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1201
+msgid "H5 font style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:32
+#: inc/admin/theme_options/includes/presets.php:341
+msgid "H6"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1218
+msgid "H6 font style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:961
+msgid "Hader background fill"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:750
+msgid "Header"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:947
+msgid "Header background color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:795
+msgid "Header background image"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:847
+msgid "Header builder"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:820
+msgid "Header fixed on mobile device"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:766
+msgid "Header negative offset"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:753
+msgid "Header options"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:827
+msgid "Header Socials"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:972
+msgid "Header text color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:979
+msgid "Header text color on hover"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:758
+msgid "Header transparent"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1267
+msgid "Heading line height"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1243
+msgid "Heading line position"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1256
+msgid "Heading line width"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1117
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1122
+msgid "Headings style"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:90 inc/vc/vc_core_params.php:101
+#: inc/vc/modules/testimonials.php:111 inc/vc/modules/testimonials.php:129
+#: inc/admin/theme_options/includes/presets.php:1517
+#: inc/admin/theme_options/includes/presets.php:1850
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3696
+#: inc/admin/tgm/plugin-activation.php:3704
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:72
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:72
+msgid "Hide price breakdown"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/room-content.php:142
+msgid "Hide rates"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1514
+#: inc/admin/theme_options/includes/presets.php:1847
+msgid "Hide sidebar on mobile"
+msgstr ""
+
+#: resources/partials/header/mobile.php:21
+msgid "Home"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:21
+msgid "Home URL:"
+msgstr ""
+
+#: resources/partials/header/elements/filter/filter.php:20
+msgid "Hot"
+msgstr ""
+
+#: inc/vc/modules/contacts_widget.php:8 inc/vc/modules/cf7.php:18
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_widget_booking.php:11
+msgid "Hotel"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:11 inc/vc/modules/icon.php:10
+#: inc/vc/modules/carousel_gallery.php:15 inc/vc/modules/google_map.php:17
+#: inc/vc/modules/posts_carousel.php:36
+#: inc/vc/modules/images_gallery_with_categories.php:15
+#: inc/vc/modules/iconbox.php:12 inc/vc/modules/separator.php:8
+#: inc/vc/modules/call_to_action.php:9 inc/vc/modules/button.php:12
+#: inc/admin/product_registration/includes/admin_screens.php:85
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:16
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_form.php:14
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_carousel.php:13
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:31
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:23
+#: resources/partials/header/elements/image/image.php:45
+msgid "hotel"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_widget_booking.php:6
+msgid "Hotel Booking Widget"
+msgstr ""
+
+#: inc/vc/modules/cf7.php:12
+msgid "Hotel Contact form 7"
+msgstr ""
+
+#: inc/vc/modules/contacts_widget.php:3
+msgid "Hotel Contacts"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:8
+msgid "Hotel Google maps"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:7
+msgid "Hotel Posts List"
+msgstr ""
+
+#: inc/vc/modules/sidebar.php:8
+msgid "Hotel Sidebar"
+msgstr ""
+
+#: inc/admin/notifications/tgm/main.php:67
+msgid "Hotel WP recommends to activate following plugins:"
+msgstr ""
+
+#: inc/admin/notifications/tgm/main.php:62
+msgid "Hotel WP recommends to install following plugins:"
+msgstr ""
+
+#: inc/admin/notifications/tgm/main.php:72
+msgid "Hotel WP recommends to update following plugins:"
+msgstr ""
+
+#. Name of the theme
+#: inc/admin/product_registration/includes/admin_screens.php:25
+msgid "Hotello"
+msgstr ""
+
+#: inc/vc/modules/contact.php:12
+msgid "hotello"
+msgstr ""
+
+#: inc/vc/modules/contact.php:7
+msgid "Hotello Contact"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Hotello WordPress Theme is a responsive Hotel WordPress theme targeted "
+"especially for hotel, chalet, resort, motel, hostel, bed and breakfast and "
+"apartment with all-in-one booking system within theme package."
+msgstr ""
+
+#. URI of the theme
+msgid "http://hotel.stylemixthemes.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://stylemixthemes.com/"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/terms.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/terms.php:23
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:220 inc/vc/modules/icon.php:20
+#: inc/vc/modules/iconbox.php:54 inc/vc/modules/button.php:69
+#: inc/vc/modules/button.php:81 inc/vc/modules/button.php:98
+#: inc/vc/modules/button.php:110 inc/vc/modules/button.php:122
+#: inc/vc/modules/button.php:134 inc/vc/modules/button.php:146
+#: inc/vc/modules/button.php:158
+msgid "Icon"
+msgstr ""
+
+#: inc/vc/modules/icon.php:83
+msgid "Icon align"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:14
+msgid "Icon and text inside the box"
+msgstr ""
+
+#: inc/vc/modules/icon.php:126
+msgid "Icon background border width(px)"
+msgstr ""
+
+#: inc/vc/modules/icon.php:107
+msgid "Icon Background color"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:7
+msgid "Icon Box"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:249 inc/vc/vc_core_params.php:266
+#: inc/vc/modules/iconbox.php:82
+msgid "Icon Color"
+msgstr ""
+
+#: inc/vc/modules/icon.php:26 inc/vc/modules/button.php:86
+msgid "Icon color"
+msgstr ""
+
+#: inc/vc/modules/icon.php:74
+msgid "Icon color on hover"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:94 inc/vc/modules/call_to_action.php:126
+#: inc/vc/modules/button.php:103
+msgid "Icon Custom Color"
+msgstr ""
+
+#: inc/vc/modules/icon.php:65
+msgid "Icon custom color"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:137 inc/vc/modules/button.php:115
+msgid "Icon Custom Color on hover"
+msgstr ""
+
+#: inc/vc/modules/icon.php:47
+msgid "Icon gradient first color"
+msgstr ""
+
+#: inc/vc/modules/icon.php:56
+msgid "Icon gradient second color"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:111
+msgid "Icon Height"
+msgstr ""
+
+#: inc/vc/modules/icon.php:15
+msgid "Icon link"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:232
+msgid "Icon Position"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:71
+msgid "Icon position"
+msgstr ""
+
+#: inc/vc/modules/icon.php:101
+msgid "Icon Round Background"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:104
+msgid "Icon Size"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:182
+msgid "Icon size"
+msgstr ""
+
+#: inc/vc/modules/icon.php:90
+msgid "Icon size(px)"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:125
+msgid "Icon Weight"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:118
+msgid "Icon Width"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:394
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/setting/items.php:22
+msgid "ID"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:28
+msgid ""
+"If you want to import another layout, please <a href=\"https://wordpress."
+"org/plugins/wordpress-reset/\" target=\"_blank\">Reset WordPress</a> "
+"database."
+msgstr ""
+
+#: inc/vc/modules/contact.php:23
+#: inc/admin/theme_options/includes/presets.php:77
+msgid "Image"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1441
+msgid "Image background for 404 page"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:26
+msgid "Image effect"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1049
+msgid "Image for bottom bar background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1640
+msgid "Image for footer background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:988
+msgid "Image for header background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:366
+msgid "Image for title box background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:909
+msgid "Image for top bar background"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1716
+msgid "Image in the center"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:36
+#: inc/vc/modules/carousel_gallery.php:163 inc/vc/modules/contact.php:28
+msgid "Image Size"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:16 inc/vc/modules/posts_carousel.php:41
+#: inc/vc/modules/images_gallery_with_categories.php:72
+msgid "Image size"
+msgstr ""
+
+#: inc/widgets/gallery.php:128
+msgid "Image size:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1718
+msgid "Image will appear in the middle of copyright section"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:21
+#: inc/vc/modules/images_gallery_with_categories.php:26
+msgid "Images"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:30
+msgid "Images Category"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:41
+msgid "Images category"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:17
+msgid "Images gallery grid with categories"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:10
+msgid "Images Gallery With Categories"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:80
+msgid "Images to show"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:46
+msgid "Import"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:213
+msgid "Imported"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:212
+msgid "Importing Demo"
+msgstr ""
+
+#: resources/partials/header/elements/weather/weather.php:13
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:71
+msgid "Include"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:86
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:160
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2888
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:151
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:380
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:472
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:473
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/admin/tgm/plugin-activation.php:2770
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:152
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:381
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:190
+#: inc/admin/product_registration/includes/admin_screens.php:205
+msgid "Install Demos"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:340
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:339
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: inc/admin/tgm/plugin-activation.php:2498
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:43
+msgid "Installed"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:63
+#: inc/admin/product_registration/screens/install_demo.php:155
+msgid "Installed & Activated"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2475
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2652
+msgid "Installed version:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:154
+msgid "Installing"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/tgm/plugin-activation.php:3699
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/tgm/plugin-activation.php:3707
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:797
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:822
+msgid "Installing Plugin..."
+msgstr ""
+
+#. %s: plugin name.
+#: inc/admin/tgm/plugin-activation.php:342
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:829
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:856
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:881
+msgid "Installing Theme..."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:890
+#, php-format
+msgid "Installing Theme: %s"
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:69
+msgid "Instructions For Generating A Token"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:58
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:58
+msgid "Invalid reservation."
+msgstr ""
+
+#: resources/partials/content/stm_services/layouts/layout_2.php:30
+msgid "Item details"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:430
+msgid "Item ID"
+msgstr ""
+
+#: inc/vc/modules/contact.php:34
+msgid "Job"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:69
+msgid "Language:"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:45 inc/vc/modules/button.php:40
+msgid "Large"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:63
+msgid "Last"
+msgstr ""
+
+#: resources/partials/header/elements/filter/filter.php:32
+msgid "Latest"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:126
+msgid "Latitude"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1687
+#: inc/admin/theme_options/includes/presets.php:1825
+msgid "Layout 1"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1826
+msgid "Layout 2"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:55
+msgid "Learn more"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:85
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:238 inc/vc/helpers.php:89
+#: inc/vc/modules/iconbox.php:63 inc/vc/modules/iconbox.php:74
+#: inc/vc/modules/call_to_action.php:163 inc/vc/modules/button.php:51
+#: inc/vc/modules/button.php:65
+#: inc/admin/theme_options/includes/presets.php:317
+#: inc/admin/theme_options/includes/presets.php:1503
+#: inc/admin/theme_options/includes/presets.php:1547
+#: inc/admin/theme_options/includes/presets.php:1806
+#: inc/admin/theme_options/includes/presets.php:1864
+msgid "Left"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:2619
+msgid "Light"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:385
+msgid "Line color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1292
+msgid "Line height"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1307
+msgid "Link color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1314
+msgid "Link hover color"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:140
+msgid "Link IconBox"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1302
+msgid "Link Settings"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:150
+msgid "Link url"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:168
+msgid "Linkedin"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1478
+msgid "List"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:72
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:61
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/cart-errors.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:61
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/cart-errors.php:25
+msgid "List of available rooms"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1344
+msgid "Lists Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1350
+msgid "Lists style"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:138
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:55
+msgid "Live Preview"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:138
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:55
+#, php-format
+msgid "Live Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: resources/partials/header/elements/signin/signin.php:8
+msgid "Login / Register"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:211
+msgid "Logo"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:131
+msgid "Longitude"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:204
+msgid "Loop"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1368
+msgid "Lorem"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1334
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cupiditate "
+"fugit id, incidunt ipsam quisquam repellat totam."
+msgstr ""
+
+#: inc/vc/vc_core_params.php:283
+msgid "Lowercase"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1096
+#: inc/admin/theme_options/includes/presets.php:1609
+msgid "Main"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:85
+#: inc/admin/theme_options/includes/presets.php:1070
+msgid "Main color"
+msgstr ""
+
+#: inc/enqueue.php:126
+msgctxt "Main font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:779
+#: inc/admin/theme_options/includes/presets.php:920
+msgid "Main header"
+msgstr ""
+
+#: functions.php:54
+msgid "Main sidebar that appears on the right or left."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:213
+msgid "Main theme Logo"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:23
+msgid "Map Height"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:74
+msgid "Map style"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:30
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:86
+msgid "Margin between images"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:90
+msgid "Margins"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:36
+msgid "Marker Image"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:41
+msgid "Marker size"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:35
+msgid "Max children"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:28
+msgid "Max guests"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:247
+msgid "Max Upload Size:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:170
+msgid "Medium"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:2616
+msgid "Medium (500)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:93
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2660
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/vc/modules/spacer.php:22
+msgid "Mobile Spacer height"
+msgstr ""
+
+#: resources/partials/header/elements/signin/signin.php:5
+msgid "My account"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:36
+#: inc/admin/product_registration/includes/admin_screens.php:37
+msgid "My Hotel"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:236
+msgid "MySQL Version:"
+msgstr ""
+
+#: inc/comments.php:63 inc/vc/modules/contact.php:18
+#: inc/admin/theme_options/includes/presets.php:1771
+#: inc/admin/theme_options/includes/presets.php:1880
+msgid "Name"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/guest-details.php:27
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/guest-details.php:27
+msgid "Name:"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:115
+msgid "Navigation style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1404
+msgid "NavXT Breadcrumbs Fullwidth"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:364
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:118
+msgid "Network Activate"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:365
+#, php-format
+msgid "Network Activate %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:118
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:64
+msgid "Network Enable"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:118
+#, php-format
+msgid "Network Enable &#8220;%s&#8221;"
+msgstr ""
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-functions.php:648
+msgid "Next page"
+msgstr ""
+
+#: resources/partials/content/post/parts/prev_next_posts_4.php:25
+msgid "Next post"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/class-hotel-room-variation.php:13
+#: inc/plugins_mods/wp-hotelier/class-hotel-room-variation.php:19
+msgid "Night"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:41
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:41
+msgid "Nights:"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:163 inc/vc/modules/posts_carousel.php:178
+#: inc/vc/modules/posts_carousel.php:193 inc/vc/modules/posts_carousel.php:208
+msgid "No"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/admin/tgm/plugin-activation.php:402
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:233
+msgid "No images selected"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3106
+msgid "No plugins are available to be activated at this time."
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:2972
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2974
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2696
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3080
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2929
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2931
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: resources/partials/header/elements/cart/mini-cart.php:41
+msgid "No products in the cart."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:56
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/non-cancellable-info.php:24
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item.php:29
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:56
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/non-cancellable-info.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item.php:29
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/rate/rate-non-cancellable-info.php:21
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/non-cancellable-info.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/rate/rate-non-cancellable-info.php:21
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/non-cancellable-info.php:24
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-non-cancellable-info.php:22
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-non-cancellable-info.php:22
+msgid "Non-refundable"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:13 inc/vc/modules/carousel_gallery.php:29
+#: inc/vc/modules/carousel_gallery.php:118
+#: inc/vc/modules/call_to_action.php:162 inc/vc/modules/button.php:64
+#: inc/admin/theme_options/includes/presets.php:32
+#: inc/admin/theme_options/includes/presets.php:777
+#: inc/admin/theme_options/includes/helpers.php:169
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:46
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:46
+msgid "None"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:128 inc/vc/modules/call_to_action.php:43
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:2617
+msgid "Normal (400)"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2471
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:63
+msgid "Not installed"
+msgstr ""
+
+#: search.php:33 resources/partials/content/none.php:48
+msgid "Nothing found"
+msgstr ""
+
+#: inc/admin/theme_options/includes/helpers.php:37
+msgid "Nothing to save"
+msgstr ""
+
+#: inc/comments.php:81
+msgctxt "noun"
+msgid "Message"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/global/quantity-input.php:20
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/global/quantity-input.php:20
+msgid "Nr. rooms"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1614
+msgid "Number of columns"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table-guests.php:26
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item-guests.php:33
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table-guests.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item-guests.php:33
+#, php-format
+msgid "Number of guests (Room %d):"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table-guests.php:28
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item-guests.php:35
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table-guests.php:28
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item-guests.php:35
+msgid "Number of guests:"
+msgstr ""
+
+#: inc/widgets/gallery.php:118
+msgid "Number of images:"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:21
+msgid "Number of posts"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:152
+msgid "Number of thumbnail in a row"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/section/oauth.php:10
+msgid ""
+"OAuth is a protocol that lets external apps request authorization to private "
+"details in a user's Envato Market account without entering their password. "
+"This is preferred over Basic Authentication because tokens can be limited to "
+"specific types of data, and can be revoked by users at any time."
+msgstr ""
+
+#: vc_templates/stm_wp_hotelier_rooms_carousel.php:129
+#: inc/plugins_mods/wp-hotelier/index.php:26
+#: inc/plugins_mods/wp-hotelier/class-hotel-room.php:197
+msgid "Occupancy"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/max-guests.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/max-guests.php:25
+msgid "Occupancy:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:174
+msgid "Odnoklassniki"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:175
+msgid "Odnoklassniki square"
+msgstr ""
+
+#: vc_templates/stm_carousel_gallery.php:155
+msgid "of"
+msgstr ""
+
+#: vc_templates/stm_google_map_address.php:22
+msgid "Office"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:19
+msgid "Office location with pin on map"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:73
+msgid "Offices"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:56
+msgid "Offset"
+msgstr ""
+
+#: comments.php:35
+msgid "Older Comments"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/notice/error-single-use.php:11
+msgid ""
+"One or more Single Use OAuth Personal Tokens could not be verified and "
+"should be removed."
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:31
+msgid "Opacity"
+msgstr ""
+
+#: vc_templates/stm_google_map_address.php:55 inc/vc/modules/google_map.php:121
+msgid "Open Hours"
+msgstr ""
+
+#: inc/widgets/contacts.php:96 inc/vc/modules/contacts_widget.php:40
+msgid "Open hours"
+msgstr ""
+
+#: inc/widgets/contacts.php:193
+msgid "Open Hours:"
+msgstr ""
+
+#: resources/partials/content/stm_services/layouts/layout_2.php:83
+msgid "or call us"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:26
+msgid "Order by"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:89
+#, php-format
+msgid ""
+"Our forum is the best place for user to user interactions. Ask another %s "
+"user or share your experience with the community to help others."
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:52
+#, php-format
+msgid ""
+"Our online documentaiton is a useful resource for learning the every aspect "
+"and features of %s."
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:152 inc/vc/modules/button.php:29
+msgid "Outline"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:305
+msgid "Override page settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:875
+#: inc/admin/theme_options/includes/presets.php:936
+#: inc/admin/theme_options/includes/presets.php:1015
+msgid "Padding bottom (px)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:864
+#: inc/admin/theme_options/includes/presets.php:925
+#: inc/admin/theme_options/includes/presets.php:1004
+msgid "Padding top (px)"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1379
+msgid "Page"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:721
+msgid "Pagination global Style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1282
+msgid "Paragraph margin bottom"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1277
+msgid "Paragraph settings"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:26
+msgid "Pay"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/payment.php:20
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/form-pay.php:61
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/payment.php:20
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/form-pay.php:61
+msgid "Payment method"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/availability-form.php:75
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/availability-form.php:75
+msgid "Per night"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-details.php:38
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-details.php:38
+msgid "Pets"
+msgstr ""
+
+#: vc_templates/stm_google_map_address.php:32 inc/widgets/contacts.php:60
+#: inc/vc/modules/google_map.php:111 inc/vc/modules/contact.php:39
+#: inc/vc/modules/contacts_widget.php:25
+msgid "Phone"
+msgstr ""
+
+#: inc/widgets/contacts.php:171
+msgid "Phone:"
+msgstr ""
+
+#: vc_templates/stm_contact.php:27
+msgid "Phone: "
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:121
+msgid "PHP Max Input Vars:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:98
+msgid "PHP Post Max Size:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:103
+msgid "PHP Time Limit:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:90
+msgid "PHP Version:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:169
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widgets/socials.php:70
+#, php-format
+msgid ""
+"Please add socials links in <a href=\"%s\" target=\"_blank\">Theme "
+"Options</a> -> Footer -> Socials"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:409
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:1040
+#: inc/admin/tgm/plugin-activation.php:1043
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:95
+#, php-format
+msgid ""
+"Please enter your <a href=\"%s\">Activation Token</a> before running the "
+"Hotel."
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:23
+msgid ""
+"Please make sure you have purchased this theme with the account you "
+"registered current token"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2711
+msgid "Plugin"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:1229
+#: inc/admin/tgm/plugin-activation.php:3120
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:399
+#: inc/admin/tgm/plugin-activation.php:3339
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3338
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/admin/tgm/plugin-activation.php:404
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:193
+#: inc/admin/product_registration/includes/admin_screens.php:208
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/tabs.php:42
+msgid "Plugins"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/admin/tgm/plugin-activation.php:2546
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/theme_options/includes/presets.php:1772
+#: inc/admin/theme_options/includes/presets.php:1881
+msgid "Plural"
+msgstr ""
+
+#: resources/partials/header/elements/filter/filter.php:26
+msgid "Popular"
+msgstr ""
+
+#: resources/partials/content/post/parts/prev_next_posts_2.php:8
+#: resources/partials/content/post/parts/prev_next_posts_3.php:8
+#: resources/partials/content/post/parts/prev_next_posts.php:8
+#: resources/partials/content/post/parts/prev_next_posts_4.php:8
+msgid "Post"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:47
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:119
+msgid "Post Filter"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:53
+msgid "Post format"
+msgstr ""
+
+#: inc/widgets/gallery.php:139
+msgid "Post type:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1759
+msgid "Post types"
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-4.php:15
+#: resources/partials/content/post/parts/postinfo-2.php:8
+#: resources/partials/content/post/parts/postinfo-3.php:7
+#: resources/partials/content/post/parts/postinfo.php:7
+#: resources/partials/content/post/archive_layouts/list/style_2.php:32
+msgid "Posted by:"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:68
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: resources/partials/content/post/parts/postinfo-13.php:11
+msgid "Posted in:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:43
+msgid "Posts per page"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2453
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:253
+msgid "Preloader color"
+msgstr ""
+
+#: resources/partials/content/post/parts/prev_next_posts_4.php:16
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: inc/template-functions.php:649
+msgid "Previous page"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/price.php:29
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/price.php:29
+#, php-format
+msgid "Price for %s night(s)"
+msgstr ""
+
+#: inc/setup.php:17 inc/vc/vc_core_params.php:252 inc/vc/helpers.php:79
+#: inc/vc/helpers.php:98 inc/vc/modules/call_to_action.php:30
+#: inc/vc/modules/button.php:210
+msgid "Primary"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:187
+msgid "Product Registration"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/form-pay.php:24
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-table.php:30
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/form-pay.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-table.php:30
+msgid "Qty"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:30
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:30
+msgid "Quantity"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:32 inc/vc/modules/posts_carousel.php:64
+msgid "Random"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/rate/rate-conditions.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/rate/rate-conditions.php:24
+msgid "Rate conditions:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:213
+msgid "Rate:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:52
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/item.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:52
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/item.php:25
+#, php-format
+msgid "Rate: %s"
+msgstr ""
+
+#: vc_templates/stm_posts_list.php:45
+msgid "Read more"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2430
+msgid "Recommended"
+msgstr ""
+
+#: resources/partials/content/post/parts/after_content.php:22
+msgid "Recommended Articles"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:176
+msgid "Reddit"
+msgstr ""
+
+#: resources/partials/content/post/parts/related_posts.php:21
+msgid "Related posts"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/related.php:20
+msgid "Related rooms"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:364
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:216
+#: inc/admin/theme_options/includes/presets.php:369
+#: inc/admin/theme_options/includes/presets.php:800
+#: inc/admin/theme_options/includes/presets.php:912
+#: inc/admin/theme_options/includes/presets.php:991
+#: inc/admin/theme_options/includes/presets.php:1052
+#: inc/admin/theme_options/includes/presets.php:1444
+#: inc/admin/theme_options/includes/presets.php:1643
+#: inc/admin/theme_options/includes/presets.php:1721
+msgid "Remove image"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:418
+msgid "Remove Item"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:217
+#: inc/admin/theme_options/includes/presets.php:370
+#: inc/admin/theme_options/includes/presets.php:801
+#: inc/admin/theme_options/includes/presets.php:913
+#: inc/admin/theme_options/includes/presets.php:992
+#: inc/admin/theme_options/includes/presets.php:1053
+#: inc/admin/theme_options/includes/presets.php:1445
+#: inc/admin/theme_options/includes/presets.php:1644
+#: inc/admin/theme_options/includes/presets.php:1722
+msgid "Replace image"
+msgstr ""
+
+#: inc/comments.php:33
+msgid "Reply"
+msgstr ""
+
+#: resources/partials/content/stm_services/layouts/layout_2.php:62
+msgid "Request a Call back"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2427
+msgid "Required"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2483
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2486
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-table.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-table.php:23
+msgid "Reservation details"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:23
+msgid "Reservation number:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/reserve-button.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/reserve-button.php:26
+msgid "Reserve"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:122
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:799
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:824
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:883
+msgid "Return to Plugin Installer"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:398
+#: inc/admin/tgm/plugin-activation.php:931
+#: inc/admin/tgm/plugin-activation.php:2696
+#: inc/admin/tgm/plugin-activation.php:3770
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:70
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:858
+msgid "Return to Theme Installer"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:10
+msgid "Reviews from customers"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:236 inc/vc/helpers.php:91
+#: inc/vc/modules/carousel_gallery.php:211 inc/vc/modules/iconbox.php:65
+#: inc/vc/modules/iconbox.php:76 inc/vc/modules/call_to_action.php:164
+#: inc/vc/modules/button.php:52 inc/vc/modules/button.php:66
+#: inc/admin/theme_options/includes/presets.php:318
+#: inc/admin/theme_options/includes/presets.php:1247
+#: inc/admin/theme_options/includes/presets.php:1504
+#: inc/admin/theme_options/includes/presets.php:1548
+#: inc/admin/theme_options/includes/presets.php:1807
+#: inc/admin/theme_options/includes/presets.php:1865
+msgid "Right"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1729
+msgid "Right text"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/form-pay.php:23
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:29
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-table.php:29
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/form-pay.php:23
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:29
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-table.php:29
+msgid "Room"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/related.php:26
+msgid "Room & suits"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:21
+#: inc/plugins_mods/wp-hotelier/actions.php:33
+msgid "Room category icon"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/conditions.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/conditions.php:26
+msgid "Room conditions"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/room-conditions.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/room-conditions.php:26
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/rate/rate-conditions.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/rate/rate-conditions.php:24
+msgid "Room conditions:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:22
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:22
+msgid "Room details"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/facilities.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/facilities.php:25
+msgid "Room facilities:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/ajax.php:45
+#: inc/plugins_mods/wp-hotelier/enqueue.php:12
+msgid "Room is available"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/ajax.php:31
+#: inc/plugins_mods/wp-hotelier/enqueue.php:13
+msgid "Room is not available"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/global/quantity-input.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/global/quantity-input.php:25
+msgctxt "Room quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:48
+#: inc/plugins_mods/wp-hotelier/actions.php:65
+msgid "Room rate icon"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:153
+msgid "Room sidebar"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:39
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:39
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/meta.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/meta.php:24
+msgid "Room size:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/meta.php:53
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/meta.php:53
+msgid "Room type"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_form.php:11
+msgid "Rooms search form"
+msgstr ""
+
+#: inc/vc/modules/icon.php:116
+msgid "Rounded background size(px)"
+msgstr ""
+
+#: inc/vc/modules/icon.php:100
+msgid "Rounded shadow"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:134
+msgid "Row Background Round"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:10
+msgid "Row divider"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:23
+msgid "Row divider style"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:108
+msgid "Row Top Bump"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:66
+msgid "Row transparent first background color"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:72
+msgid "Row transparent second background color"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/sale.php:35
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/sale.php:35
+msgid "Sale"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:363
+msgid "Save"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/settings.php:18
+msgid "Save Changes"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:26
+msgid "Saw"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:105
+#: resources/partials/global/titlebox/style_1.php:23
+msgid "Search"
+msgstr ""
+
+#: search.php:23
+msgid "Search Results"
+msgstr ""
+
+#: resources/partials/global/searchform.php:7
+msgid "Search..."
+msgstr ""
+
+#: inc/vc/vc_core_params.php:253 inc/vc/helpers.php:80 inc/vc/helpers.php:99
+#: inc/vc/modules/call_to_action.php:31 inc/vc/modules/button.php:211
+msgid "Secondary"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:86
+#: inc/admin/theme_options/includes/presets.php:1077
+msgid "Secondary color"
+msgstr ""
+
+#: inc/enqueue.php:127
+msgctxt "Secondary font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/single-room/price.php:26
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/single-room/price.php:26
+msgid "See available rates"
+msgstr ""
+
+#: inc/template-functions.php:915
+msgid "Select"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:837
+#: inc/admin/theme_options/includes/presets.php:1667
+msgid "Select a site"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1108
+#: inc/admin/theme_options/includes/presets.php:1125
+#: inc/admin/theme_options/includes/presets.php:1141
+#: inc/admin/theme_options/includes/presets.php:1158
+#: inc/admin/theme_options/includes/presets.php:1175
+#: inc/admin/theme_options/includes/presets.php:1192
+#: inc/admin/theme_options/includes/presets.php:1209
+#: inc/admin/theme_options/includes/presets.php:1226
+msgid "Select color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1105
+#: inc/admin/theme_options/includes/presets.php:1137
+#: inc/admin/theme_options/includes/presets.php:1154
+#: inc/admin/theme_options/includes/presets.php:1171
+#: inc/admin/theme_options/includes/presets.php:1188
+#: inc/admin/theme_options/includes/presets.php:1205
+#: inc/admin/theme_options/includes/presets.php:1222
+msgid "Select font family"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1110
+#: inc/admin/theme_options/includes/presets.php:1143
+#: inc/admin/theme_options/includes/presets.php:1160
+#: inc/admin/theme_options/includes/presets.php:1177
+#: inc/admin/theme_options/includes/presets.php:1194
+#: inc/admin/theme_options/includes/presets.php:1211
+#: inc/admin/theme_options/includes/presets.php:1228
+#: inc/admin/theme_options/includes/presets.php:2611
+msgid "Select font-weight"
+msgstr ""
+
+#: inc/vc/modules/cf7.php:23
+msgid "Select form"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:295
+msgid "Select global style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:808
+msgid "Select header style"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:90 inc/vc/modules/button.php:92
+msgid "Select icon color"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:34
+#: inc/vc/modules/images_gallery_with_categories.php:47
+msgid "Select images"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:156
+msgid "Select Option..."
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:60
+msgid "Select order"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:43
+msgid "Select rooms"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:28
+msgid "Select rooms types"
+msgstr ""
+
+#: inc/vc/modules/sidebar.php:13
+msgid "Select sidebar"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:773
+msgid "Select sticky header"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1109
+#: inc/admin/theme_options/includes/presets.php:1126
+#: inc/admin/theme_options/includes/presets.php:1142
+#: inc/admin/theme_options/includes/presets.php:1159
+#: inc/admin/theme_options/includes/presets.php:1176
+#: inc/admin/theme_options/includes/presets.php:1193
+#: inc/admin/theme_options/includes/presets.php:1210
+#: inc/admin/theme_options/includes/presets.php:1227
+msgid "Select subset"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/selected-nights.php:22
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/selected-nights.php:22
+#, php-format
+msgctxt "selected_nights"
+msgid "%s-night stay"
+msgid_plural "%s-nights stay"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/theme_options/includes/presets.php:2615
+msgid "Semi-Bold (600)"
+msgstr ""
+
+#: inc/vc/modules/separator.php:4
+msgid "Separator"
+msgstr ""
+
+#: inc/vc/modules/separator.php:44
+msgid "Separator height"
+msgstr ""
+
+#: inc/vc/modules/separator.php:32
+msgid "Separator width"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:76
+#: inc/admin/product_registration/screens/system_status.php:80
+msgid "Server Environment"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:85
+msgid "Server Info:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1763
+#: inc/admin/theme_options/includes/presets.php:1768
+msgid "Services"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1782
+msgid "Services Archive Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1814
+msgid "Services Single Page Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:876
+#: inc/admin/theme_options/includes/presets.php:937
+#: inc/admin/theme_options/includes/presets.php:1016
+msgid "Set bottom padding"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:93
+msgid "Set margins between slides"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:865
+#: inc/admin/theme_options/includes/presets.php:926
+#: inc/admin/theme_options/includes/presets.php:1005
+msgid "Set top padding"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/tabs.php:45
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/theme_options/includes/helpers.php:35
+msgid "Settings Saved"
+msgstr ""
+
+#: inc/admin/product_registration/screens/install_demo.php:90
+msgid "Setup Layout"
+msgstr ""
+
+#: inc/vc/helpers.php:22
+msgid "Shadow blur"
+msgstr ""
+
+#: inc/vc/helpers.php:36
+msgid "Shadow color"
+msgstr ""
+
+#: inc/vc/helpers.php:29
+msgid "Shadow spread"
+msgstr ""
+
+#: inc/vc/helpers.php:8
+msgid "Shadow X offset"
+msgstr ""
+
+#: inc/vc/helpers.php:15
+msgid "Shadow Y offset"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:89 inc/vc/vc_core_params.php:100
+#: inc/vc/modules/testimonials.php:110 inc/vc/modules/testimonials.php:128
+#: inc/admin/theme_options/includes/presets.php:1518
+#: inc/admin/theme_options/includes/presets.php:1851
+msgid "Show"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:121
+msgid "Show arows"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:97
+msgid "Show background on mobile"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:86
+msgid "Show background on tablet"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:107
+msgid "Show bullets"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:91
+msgid "Show Category"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:112
+msgid "Show Comments"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1743
+msgid "Show copyright symbol"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1736
+msgid "Show current year"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:119
+msgid "Show Date"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3696
+#: inc/admin/tgm/plugin-activation.php:3704
+msgid "Show Details"
+msgstr ""
+
+#: resources/partials/modals/_product.php:59
+msgid "Show details"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:98
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:63
+msgid "Show Image"
+msgstr ""
+
+#: inc/vc/modules/posts_list.php:37
+msgid "Show image"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:159
+msgid "Show more"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:243
+msgid "Show more rooms"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1395
+msgid "Show NavXT Breadcrumbs"
+msgstr ""
+
+#: inc/vc/modules/images_gallery_with_categories.php:61
+#: inc/vc/modules/testimonials.php:21
+msgid "Show number"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:36 inc/vc/modules/testimonials.php:46
+msgid "Show number in row"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1387
+msgid "Show Page title"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1590
+msgid "Show Post Author"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1597
+msgid "Show Post Comments"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1569
+msgid "Show Post Image"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1562
+msgid "Show Post Info"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1583
+msgid "Show Post Share"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1576
+msgid "Show Post Tags"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1555
+msgid "Show Post Title"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/room-content.php:141
+msgid "Show rates"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:83
+msgid "Show review text symbols"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1750
+msgid "Show socials"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:46
+msgid "Show Title"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:105
+msgid "Show Views"
+msgstr ""
+
+#: inc/vc/modules/icon.php:5
+msgid "Shows single icon"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1486
+#: inc/admin/theme_options/includes/presets.php:1530
+#: inc/admin/theme_options/includes/presets.php:1789
+#: inc/admin/theme_options/includes/presets.php:1833
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1500
+#: inc/admin/theme_options/includes/presets.php:1544
+#: inc/admin/theme_options/includes/presets.php:1803
+#: inc/admin/theme_options/includes/presets.php:1861
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:710
+msgid "Sidebars global style"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1525
+msgid "Single Post"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:155
+msgid "Single room sidebar."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1822
+msgid "Single Service Layout"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:513
+msgid "Single Use OAuth Personal Tokens"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:356
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:114
+msgid "Site Activate"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:357
+#, php-format
+msgid "Site Activate %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:114
+#: inc/admin/product_registration/includes/envato-market/inc/admin/upgrader-skins.php:60
+msgid "Site Enable"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:114
+#, php-format
+msgid "Site Enable &#8220;%s&#8221;"
+msgstr ""
+
+#: resources/partials/header/mobile.php:23
+msgid "Site Logo"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:235
+msgid "Site paddings"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:26
+msgid "Site URL:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:224
+msgid "Site width (px)"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: resources/partials/modals/_product.php:42
+msgid "Sku:"
+msgstr ""
+
+#: inc/vc/modules/contact.php:49
+#: inc/admin/theme_options/includes/presets.php:180
+msgid "Skype"
+msgstr ""
+
+#: vc_templates/stm_contact.php:40
+msgid "Skype: "
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1770
+#: inc/admin/theme_options/includes/presets.php:1879
+msgid "Slug"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:44 inc/vc/modules/button.php:41
+msgid "Small"
+msgstr ""
+
+#: resources/partials/footer/parts/_socials.php:12
+#: resources/partials/header/elements/socials/socials.php:35
+#: resources/partials/header/elements/socials/socials.php:49
+msgid "Social item"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/socials.php:13 inc/admin/theme_options/includes/presets.php:89
+#: inc/admin/theme_options/includes/presets.php:834
+#: inc/admin/theme_options/includes/presets.php:1659
+#: inc/admin/theme_options/includes/presets.php:1664
+msgid "Socials"
+msgstr ""
+
+#: inc/widgets/socials.php:14
+msgid "Socials widget"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:151 inc/vc/modules/button.php:28
+msgid "Solid"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:345
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/payment.php:32
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/form-pay.php:73
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/payment.php:32
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/form-pay.php:73
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:177
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2712
+msgid "Source"
+msgstr ""
+
+#: inc/vc/modules/spacer.php:3
+msgid "Spacer"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-details.php:45
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-details.php:45
+msgid "Special requests:"
+msgstr ""
+
+#: resources/partials/modals/_search.php:9
+msgid "Start typing here..."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2718
+msgid "Status"
+msgstr ""
+
+#: resources/partials/content/post/archive_layouts/list/style_2.php:11
+#: resources/partials/content/post/archive_layouts/grid/style_2.php:3
+msgid "Sticky"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:788
+msgid "Sticky Header background color"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:48
+msgid "STM Ken Burns"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:37
+msgid "STM Parallax"
+msgstr ""
+
+#: inc/widgets/gallery.php:13
+msgid "STM Posts Gallery"
+msgstr ""
+
+#: inc/widgets/gallery.php:10
+msgid "STM Posts Gallery widget"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:164
+msgid "Stretch column"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:176
+msgid "Stretch content"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:168
+msgid "Stretch out to the left"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:169
+msgid "Stretch out to the right"
+msgstr ""
+
+#: inc/vc/helpers.php:53
+msgid "Style"
+msgstr ""
+
+#: inc/vc/helpers.php:48
+#, php-format
+msgid "Style %s"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:119
+#: inc/admin/theme_options/includes/presets.php:298
+#: inc/admin/theme_options/includes/presets.php:438
+#: inc/admin/theme_options/includes/presets.php:467
+#: inc/admin/theme_options/includes/presets.php:501
+#: inc/admin/theme_options/includes/presets.php:559
+#: inc/admin/theme_options/includes/presets.php:647
+#: inc/admin/theme_options/includes/presets.php:714
+#: inc/admin/theme_options/includes/presets.php:725
+#: inc/admin/theme_options/includes/presets.php:812
+#: inc/admin/theme_options/includes/presets.php:1330
+#: inc/admin/theme_options/includes/presets.php:1353
+#: inc/admin/theme_options/includes/presets.php:1420
+msgid "Style 1"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1362
+msgid "Style 10"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1363
+msgid "Style 11"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1364
+msgid "Style 12"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:439
+#: inc/admin/theme_options/includes/presets.php:1354
+msgid "Style 2"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1355
+msgid "Style 3"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1356
+msgid "Style 4"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1357
+msgid "Style 5"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1358
+msgid "Style 6"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1359
+msgid "Style 7"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1360
+msgid "Style 8"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1361
+msgid "Style 9"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:82
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: inc/widgets/gallery.php:156 inc/widgets/contacts.php:207
+msgid "Style:"
+msgstr ""
+
+#: inc/vc/modules/button.php:7
+msgid "Stylemix Action Button"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:4
+msgid "Stylemix Call to action"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:10
+msgid "Stylemix Carousel Gallery"
+msgstr ""
+
+#: inc/vc/modules/icon.php:4
+msgid "Stylemix Icon"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:30
+msgid "Stylemix Posts Carousel"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:12
+msgid "Stylemix Widgets"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:9
+msgid "Stylemix Wp Hotelier rooms filter"
+msgstr ""
+
+#. Author of the theme
+msgid "StylemixThemes"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:485
+#: inc/admin/product_registration/screens/startup.php:61
+msgid "Submit"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:38
+msgid "Submit a ticket"
+msgstr ""
+
+#: inc/vc/modules/button.php:163
+msgid "Subtitle"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:392
+msgid "Subtitle color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:349
+msgid "Subtitle text"
+msgstr ""
+
+#: resources/partials/header/elements/cart/mini-cart.php:45
+msgid "Subtotal"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:102
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:102
+msgid "Subtotal:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:150
+msgid "SUHOSIN Installed:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:151
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.\n"
+"\t\t\tIf enabled on your server, Suhosin may need to be configured to "
+"increase its data submission limits."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:215
+msgid "Suhosin Post Max Value Length:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:157
+msgid "Suhosin Post Max Vars:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:186
+msgid "Suhosin Request Max Vars:"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:75
+#: inc/admin/product_registration/includes/admin_screens.php:76
+#: inc/admin/product_registration/includes/admin_screens.php:199
+msgid "Support"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:202
+msgid "System Status"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:65
+#: inc/admin/product_registration/includes/admin_screens.php:66
+msgid "System status"
+msgstr ""
+
+#: inc/vc/modules/spacer.php:17
+msgid "Tablet Spacer height"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:555
+msgid "Tabs global style"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:75
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:109
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:109
+msgid "Tax total:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:163
+msgid "Telegram"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/guest-details.php:41
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/guest-details.php:41
+msgid "Telephone:"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:389
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/settings.php:22
+msgid "Test API Connection"
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:8
+#: inc/admin/theme_options/includes/presets.php:1872
+#: inc/admin/theme_options/includes/presets.php:1877
+msgid "Testimonials"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:135 inc/vc/modules/call_to_action.php:15
+#: inc/admin/theme_options/includes/presets.php:69
+msgid "Text"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:313
+msgid "Text align"
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:11
+msgid "Text and button"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:378
+#: inc/admin/theme_options/includes/presets.php:1701
+msgid "Text color"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:278
+msgid "Text transform"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:85
+msgid "Text with icon"
+msgstr ""
+
+#. %s: version number
+#: inc/admin/tgm/plugin-activation.php:2126
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:39
+#, php-format
+msgid ""
+"Thank you for choosing %s! Please register it to enable the %1$s demos and "
+"theme auto updates. The instructions below must be followed exactly."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:43
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:43
+msgid ""
+"Thank you. Your reservation has been received! Please, check your email for "
+"the reservation information."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:104
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:70
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:358
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:400
+#: inc/admin/tgm/plugin-activation.php:3124
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:376
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:370
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:3694
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/admin/tgm/plugin-activation.php:3690
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:3702
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1018
+msgid "The item cannot be downloaded."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1003
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1099
+msgid "The Item ID is missing."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:99
+msgid "The largest file size that can be contained in one post."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:248
+msgid ""
+"The largest file size that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:42
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:122
+#: inc/admin/product_registration/screens/system_status.php:158
+#: inc/admin/product_registration/screens/system_status.php:187
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/notice/error.php:11
+msgid ""
+"The OAuth Personal Token could not be verified. Please check that the Token "
+"has been entered correctly and has the minimum required permissions."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1427
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:1043
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:1040
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/not-available-info.php:24
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/not-available-info.php:24
+msgid "The room is not available for this date"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:27
+msgid "The root URL of your site."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1001
+msgid "The Token is missing."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:1014
+msgid "The Token or Item ID is incorrect."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:22
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:237
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:91
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:32
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:196
+#: inc/admin/product_registration/includes/admin_screens.php:211
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:46
+#: inc/admin/product_registration/includes/admin_screens.php:47
+#: inc/admin/product_registration/includes/admin_screens.php:96
+#: inc/admin/product_registration/includes/admin_screens.php:97
+msgid "Theme options"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:109
+#: inc/admin/product_registration/includes/admin_screens.php:110
+msgid "Theme options export"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/tabs.php:28
+msgid "Themes"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:408
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/cart-errors.php:20
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/cart-errors.php:20
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back and resolve these issues before the booking."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:364
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vc/vc_core_params.php:254 inc/vc/helpers.php:81 inc/vc/helpers.php:100
+#: inc/vc/modules/button.php:212
+msgid "Third"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:87
+#: inc/admin/theme_options/includes/presets.php:1084
+msgid "Third color"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/intro.php:15
+msgid ""
+"This plugin can install WordPress themes and plugins purchased from "
+"ThemeForest & CodeCanyon by connecting with the Envato Market API using a "
+"secure OAuth personal token. Once your themes & plugins are installed "
+"WordPress will periodically check for updates, so keeping your items up to "
+"date is as simple as a few clicks."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:619
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:31
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:31
+msgid "This reservation has been cancelled. The reservation was as follows."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:37
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:37
+msgid "This reservation has been refunded. The reservation was as follows."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:162
+#: inc/plugins_mods/wp-hotelier/templates/chicago/reservation/reservation-table.php:66
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:162
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/reservation/reservation-table.php:66
+msgid ""
+"This reservation includes a non-cancellable and non-refundable room. You "
+"will be charged the total price if you cancel your booking."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:352
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:346
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/product_registration/screens/support.php:32
+msgid "Ticket System"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/filters.php:20
+msgid "Time of arrival"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:100 inc/vc/modules/contacts_widget.php:15
+#: inc/vc/modules/images_gallery_with_categories.php:21
+#: inc/vc/modules/testimonials.php:16 inc/vc/modules/iconbox.php:19
+#: inc/admin/theme_options/includes/presets.php:326
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_widget_booking.php:17
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:21
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_form.php:19
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_carousel.php:18
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:36
+msgid "Title"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:281
+msgid "Title box defaults"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:43
+msgid "Title Custom Color"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:38
+msgid "Title font size"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:334
+msgid "Title Size"
+msgstr ""
+
+#: inc/vc/modules/iconbox.php:24
+msgid "Title tag"
+msgstr ""
+
+#: inc/widgets/gallery.php:108 inc/widgets/contacts.php:157
+msgid "Title:"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/admin/tgm/plugin-activation.php:2558
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: inc/admin/tgm/plugin-activation.php:2550
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:427
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:504
+msgid "Token"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:14 inc/vc/vc_core_params.php:122
+#: inc/vc/vc_core_params.php:235
+#: inc/admin/theme_options/includes/presets.php:1246
+msgid "Top"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:778
+#: inc/admin/theme_options/includes/presets.php:859
+msgid "Top bar"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:886
+msgid "Top bar background color"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:900
+msgid "Top bar link color on hover"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:893
+msgid "Top bar text color"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/actions.php:219
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:120
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:149
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:120
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:149
+msgid "Total:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:642
+msgid "Tour global style"
+msgstr ""
+
+#: resources/partials/header/elements/filter/filter.php:38
+msgid "Trending"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:162
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:183
+msgid "Tumblr"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:158
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2713
+msgid "Type"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:73
+msgid "Type post titles to select"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:45
+msgid "Type rooms titles to select"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:1093
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:975
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/received.php:22
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/received.php:22
+msgid ""
+"Unfortunately your reservation cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2894
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/admin/tgm/plugin-activation.php:2775
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:70
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:171
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:286
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: inc/admin/notifications/tgm/main.php:55
+msgid "Update all"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:74
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:175
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:291
+msgid "Update Available"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/admin/tgm/plugin-activation.php:2554
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm/plugin-activation.php:2489
+msgid "Update recommended"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:620
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/tgm/plugin-activation.php:3685
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/admin/tgm/plugin-activation.php:344
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2853
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/vc/vc_core_params.php:282
+msgid "Uppercase"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2717
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:456
+msgid "Version"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:190
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:400
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:400
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:456
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:929
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:965
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:69
+msgid "Video Tutorials"
+msgstr ""
+
+#: resources/partials/content/post/parts/after_content.php:75
+msgid "view"
+msgstr ""
+
+#: resources/partials/header/elements/cart/mini-cart.php:51
+msgid "View cart"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/content/thumbnails.php:25
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/content/thumbnails.php:25
+msgid "View gallery"
+msgstr ""
+
+#: resources/partials/modals/_album_modal.php:65
+#: resources/partials/content/post/archive_layouts/grid/style_1.php:33
+msgid "View more"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:71
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:72
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:71
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:72
+msgid "View price breakdown"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/archive/content/room-more-button.php:19
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/archive/content/room-more-button.php:19
+msgid "View room details"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:89
+#: inc/admin/product_registration/includes/envato-market/inc/admin/functions.php:299
+#, php-format
+msgid "View version %1$s details."
+msgstr ""
+
+#: resources/partials/content/post/parts/after_content.php:77
+msgid "views"
+msgstr ""
+
+#: inc/vc/modules/carousel_gallery.php:78
+msgid "Visible images"
+msgstr ""
+
+#: inc/vc/modules/google_map.php:57
+msgid "Visible items"
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:92
+msgid "Visit Our Forum"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:284
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:159
+msgid "VK"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/section/items.php:12
+msgid "Warning: These tokens can be revoked by the account holder at any time."
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:75
+msgid "Watch Videos"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/room-list/no-rooms-available.php:18
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/room-list/no-rooms-available.php:18
+msgid ""
+"We are sorry, there are no rooms available on your requested dates. Please "
+"try again with some different dates."
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:35
+msgid ""
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
+msgstr ""
+
+#: inc/admin/product_registration/screens/support.php:72
+#, php-format
+msgid ""
+"We recommend you to watch video tutorials before you start the theme "
+"customization. Our video tutorials can teach you the different aspects of "
+"using %s."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:124
+msgid "Weather widget"
+msgstr ""
+
+#: inc/admin/product_registration/includes/admin_screens.php:177
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/intro.php:14
+msgid "Welcome!"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:184
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:37
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: inc/vc/modules/call_to_action.php:32 inc/vc/modules/button.php:213
+msgid "White"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:33
+msgid "Widget with carousel of posts"
+msgstr ""
+
+#: inc/vc/modules/button.php:201
+msgid "With gradient"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:11
+#: inc/admin/product_registration/screens/system_status.php:16
+msgid "WordPress Environment"
+msgstr ""
+
+#: inc/admin/tgm/plugin-activation.php:2447
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:58
+msgid "WP Debug Mode:"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_form.php:8
+msgid "WP Hotelier Form"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_carousel.php:8
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_selective_rooms_carousel.php:26
+msgid "WP Hotelier rooms carousel"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_filter.php:13
+msgid "Wp Hotelier rooms filter widget wrapper"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/vc-modules/wp_hotelier_rooms_list.php:18
+msgid "Wp Hotelier rooms list"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:41
+msgid "WP Memory Limit:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:36
+msgid "WP Multisite:"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:31
+msgid "WP Version:"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:64
+msgid "WPML"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:171
+msgid "Yahoo"
+msgstr ""
+
+#: inc/vc/modules/posts_carousel.php:162 inc/vc/modules/posts_carousel.php:177
+#: inc/vc/modules/posts_carousel.php:192 inc/vc/modules/posts_carousel.php:207
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:419
+msgid ""
+"You are about to remove the connection between the Envato Market API and "
+"this item. You cannot undo this action."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/partials/intro.php:16
+msgid ""
+"You can add a global token to connect all your items from your account, "
+"and/or connect directly with a specific item using a singe-use token & item "
+"ID. When the global token and single-use token are set for the same item, "
+"the single-use token will be used to communicate with the API."
+msgstr ""
+
+#: inc/vc/modules/testimonials.php:86
+msgid "You can set number of symbols to crop review text"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:213
+msgid "You do not have sufficient permissions to delete transients."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:798
+msgid "You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:857
+msgid "You do not have sufficient permissions to install themes on this site."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/admin.php:933
+msgid "You do not have sufficient permissions to update themes for this site."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/callback/section/oauth.php:12
+#, php-format
+msgid "You will need to %s, and then insert it below."
+msgstr ""
+
+#: inc/admin/product_registration/screens/startup.php:74
+msgid ""
+"You will see a green check mark for success, or a failure message if "
+"something went wrong. If it failed, please make sure you followed the steps "
+"above correctly."
+msgstr ""
+
+#: inc/comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:51
+msgid ""
+"Your current memory limit is sufficient, but if you need to import classic "
+"demo content, the required memory limit is <strong>256MB.</strong>"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:474
+#: inc/admin/theme_options/includes/presets.php:475
+msgid "Your name"
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/notice/success.php:11
+msgid "Your OAuth Personal Token has been verified."
+msgstr ""
+
+#: inc/admin/product_registration/includes/envato-market/inc/admin/view/notice/success-no-items.php:11
+msgid ""
+"Your OAuth Personal Token has been verified. However, there are no WordPress "
+"downloadable items in your account."
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:480
+#: inc/admin/theme_options/includes/presets.php:481
+msgid "Your phone"
+msgstr ""
+
+#: inc/plugins_mods/wp-hotelier/templates/chicago/booking/reservation-table.php:21
+#: inc/plugins_mods/wp-hotelier/templates/esperanza/booking/reservation-table.php:21
+msgid "Your reservation"
+msgstr ""
+
+#: resources/partials/content/none.php:44
+msgid "Your search"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:181
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/theme_options/includes/presets.php:182
+msgid "Youtube Play"
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:232
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: inc/admin/product_registration/screens/system_status.php:231
+msgid "ZipArchive:"
+msgstr ""

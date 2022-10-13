@@ -1,0 +1,99 @@
+@import "gutenberg";
+
+body.hotello_page_hotel-theme-options {
+    background-color: transparent;
+}
+
+#toplevel_page_my-hotel {
+    .wp-menu-image {
+        img {
+            max-width: 60%;
+            height: auto;
+            padding-top: 6px;
+            opacity: 1;
+        }
+    }
+}
+
+.wpb_vc_param_value.textarea_html.content span {
+    color: #000 !important;
+}
+
+.icons-selector {
+    .selected-icon i {
+        font-size: 30px !important;
+    }
+    .fip-box i {
+        font-size: 24px;
+    }
+}
+
+.butterbean-control.butterbean-control-color {
+    margin-bottom: 20px !important;
+    .wp-picker-container {
+        display: inline-block;
+        min-width: 300px;
+        position: relative;
+        padding-top: 30px;
+        .butterbean-label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            white-space: nowrap;
+        }
+        .wp-picker-clear,
+        .wp-color-picker {
+            display: none;
+        }
+        &.wp-picker-active {
+            .wp-picker-clear,
+            .wp-color-picker {
+                display: inline-block;
+            }
+        }
+    }
+    .wp-picker-input-wrap {
+        display: block !important;
+    }
+    .color-alpha {
+        height: 22px !important;
+    }
+}
+
+#butterbean-stm_default_fields-section-stm_stats_details[aria-hidden="false"] {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    > div {
+        float: none;
+        width: 33.3333%;
+        &#butterbean-control-stm_post_views {
+            width: 100%;
+        }
+        label {
+            display: block;
+            padding: 0 15px;
+        }
+    }
+}
+
+.stm_update_notice {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    text-align: left;
+    margin: 25px 20px 0 2px;
+    border-left: 5px solid #71C674;
+}
+
+.stm_needs_install {
+    display: none;
+    &.notice-visible {
+        display: block;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    }
+}
+
+#wpwrap {
+    min-height: 100vh !important;
+}

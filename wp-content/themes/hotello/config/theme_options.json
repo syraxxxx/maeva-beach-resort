@@ -1,0 +1,13 @@
+{
+  "assets": {
+    "app": [
+      "./inc/admin/theme_options/assets_src/index.main.js"
+    ],
+    "builder": [
+      "./inc/admin/theme_options/assets_src/css/builder.scss"
+    ],
+    "stm_to": [
+      "./inc/admin/theme_options/assets_src/css/stm_to.scss"
+    ]
+  }
+}

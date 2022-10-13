@@ -1,0 +1,67 @@
+//Hotel
+@import "../../icons";
+@import "../../mixins";
+
+.widget_contacts_style_1 {
+    .widget_contacts_inner {
+        .stm-icontext {
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            i {
+                font-size: 24px;
+            }
+            &__address {
+                i {
+                    &:before {
+                        @include stmicon($stmicon-hotel-map-pin);
+                    }
+                }
+            }
+            &__phone {
+                i {
+                    &:before {
+                        @include stmicon($stmicon-phone);
+                    }
+                }
+            }
+            &__email {
+                i {
+                    &:before {
+                        @include stmicon($stmicon-mail_outline);
+                    }
+                }
+            }
+            &__text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .stm-socials {
+            margin-top: 25px;
+        }
+    }
+}
+
+.stm-single-room__sidebar {
+    .widget_contacts_style_1 {
+        background-color: #f1f1f1;
+        padding: 40px;
+        .stm-icontext{
+            margin-bottom: 18px;
+            &__text {
+                font-weight: 400;
+                font-size: 18px;
+                color: #222;
+            }
+        }
+        .widgettitle {
+            margin-bottom: 20px;
+            h4 {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                font-size: 18px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import "../../variables";
+@import "../../mixins";
+@import "base";
+
+.stm_iconbox_style_1 {
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &.stm_iconbox__icon-top {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .stm_iconbox {
+        &__icon {
+            width: 100%;
+            i {
+                &:before {
+                    display: block;
+                }
+            }
+        }
+        &__text {
+            width: 100%;
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            h5 {
+                margin-bottom: 3px;
+            }
+            h6 {
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+        }
+    }
+    @include breakpoint(mobile) {
+        padding: 10px;
+        text-align: center;
+        .stm_iconbox__icon {
+            width: 100% !important;
+        }
+        .stm_iconbox__text {
+            flex-basis: 100%;
+            h5 {
+                font-size: 24px !important;
+            }
+        }
+    }
+}

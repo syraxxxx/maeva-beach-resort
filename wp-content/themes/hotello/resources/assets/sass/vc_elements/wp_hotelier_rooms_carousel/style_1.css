@@ -1,0 +1,189 @@
+.stm_wp_hotelier_rooms_carousel_style_1 {
+  position: relative;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__head {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 65px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__categories {
+  list-style: none;
+  font-size: 0;
+  margin: 0 -5px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__categories li {
+  padding: 0 5px;
+  font-size: 16px;
+  display: inline-block;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__categories li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__tab {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__tab.active {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__title h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room {
+  background-color: #fff;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__image {
+  position: relative;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__price {
+  position: absolute;
+  color: #fff;
+  top: 20px;
+  right: 0;
+  left: auto;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 26px;
+  padding: 10px 20px;
+  backface-visibility: hidden;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__price > span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__price > span > span {
+  font-weight: normal;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__content {
+  padding: 28px 30px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(56, 49, 40, 0.8);
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__link:hover {
+  opacity: 1;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__title h4 {
+  margin-bottom: 5px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__title h4 a {
+  display: block;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__excerpt {
+  margin-bottom: 25px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__occupancy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  color: #333333;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__occupancy i {
+  font-size: 30px;
+  vertical-align: sub;
+  margin-right: 5px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .room__occupancy span:last-child {
+  font-style: italic;
+  font-weight: 600;
+}
+@media (max-width: 550px) {
+  .stm_wp_hotelier_rooms_carousel_style_1 .room__occupancy {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-prev, .stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-next {
+  z-index: 50;
+  top: 140px;
+  font-size: 0;
+  border-radius: 50%;
+  border: 2px #333 solid;
+  width: 40px;
+  height: 40px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-prev:before, .stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-next:before {
+  position: relative;
+  font-size: 24px;
+  line-height: 36px;
+  text-indent: 0;
+  color: #333;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-prev:hover:before, .stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-next:hover:before {
+  color: #fff;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-prev {
+  left: -70px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-prev:before {
+  transform: rotate(180deg);
+  left: -1;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-next {
+  right: -70px;
+}
+.stm_wp_hotelier_rooms_carousel_style_1 .owl-nav button.owl-next:before {
+  right: -1;
+}
+.stm_wp_hotelier_rooms_carousel_style_1.stm_contrast .stm_wp_hotelier_rooms_carousel__head a {
+  color: #fff !important;
+}
+.stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-prev, .stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-next {
+  transition: opacity 0.3s ease;
+  border-color: #fff;
+  opacity: 0.5;
+}
+.stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-prev:before, .stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-next:before {
+  color: #fff;
+}
+.stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-prev:hover, .stm_wp_hotelier_rooms_carousel_style_1.stm_contrast button.owl-next:hover {
+  opacity: 1;
+}
+@media (max-width: 1023px) {
+  .stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__head {
+    margin-bottom: 30px;
+  }
+  .stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__categories {
+    margin: 0 auto;
+  }
+  .stm_wp_hotelier_rooms_carousel_style_1 .stm_wp_hotelier_rooms_carousel__categories a {
+    margin-bottom: 15px;
+  }
+  .stm_wp_hotelier_rooms_carousel_style_1 .room {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=style_1.css.map */

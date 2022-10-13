@@ -1,0 +1,51 @@
+@import "../../mixins";
+@import "../../variables";
+
+.stm_wp_hotelier_rooms_filter {
+    .widget-rooms-filter {
+        &__group {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.widget-booking.widget--hotelier .widget-booking__room-item {
+    border: 0 !important;
+}
+
+@include breakpoint(tablet) {
+    .hotelier .guest-additional-information-fields p.form-row--arrival-time,
+    .hotelier .guest-details-fields p.form-row {
+        width: 100%;
+    }
+
+    body.hotelier-booking .hotelier-table th, body.hotelier-booking .hotelier-table td {
+        padding: 15px 0;
+        vertical-align: top;
+    }
+
+    .widget-booking.widget--hotelier .widget-booking__change-cart {
+        left: 30px !important;
+        transform: translateX(0) !important;
+    }
+
+    #guest-additional-information {
+        margin-top: 30px;
+    }
+}
+
+@include breakpoint(mobile) {
+    .datepicker {
+        left: -15px;
+        .datepicker__topbar {
+            text-align: center;
+            margin-bottom: 10px;
+            .datepicker__info {
+                margin-bottom: 20px;
+                &-text--selected-days {
+                    display: block;
+                }
+            }
+        }
+    }
+}

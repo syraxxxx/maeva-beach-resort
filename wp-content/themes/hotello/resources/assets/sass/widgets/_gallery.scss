@@ -1,0 +1,18 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+
+.stm_widget_media {
+    display: flex;
+    flex-flow: wrap;
+    margin: -15px -7.5px 0;
+    &__single {
+        display: block;
+        width: 33.333%;
+        padding: 15px 7.5px 0;
+        @include breakpoint(tablet) {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

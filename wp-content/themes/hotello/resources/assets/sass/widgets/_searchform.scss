@@ -1,0 +1,38 @@
+.widget.widget-default.widget_search {
+    margin-bottom: 35px;
+    &:before {
+        display: none !important;
+    }
+    .search-form {
+        position: relative;
+        .form-control {
+            border-radius: 0;
+        }
+        button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 44px;
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            border: none;
+            font-size: 17px;
+            outline: none !important;
+            padding: 0;
+            i {
+                width: 100%;
+            }
+        }
+        input[name="s"] {
+            border: 1px solid transparent;
+            padding-right: 50px;
+            background: #eeeff2;
+            color: #222;
+            &:focus {
+                background: transparent;
+                border-color: #f1f1f1;
+            }
+        }
+    }
+}

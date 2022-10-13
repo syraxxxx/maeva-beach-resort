@@ -1,0 +1,99 @@
+.stm-footer {
+    padding-top: 61px;
+    font-size: 15px;
+    &__no_widgets {
+        padding-top: 0;
+        .stm-footer__widgets {
+            display: none;
+        }
+        .stm-footer__bottom {
+            border-top: 0;
+        }
+    }
+    aside.widget {
+        margin-bottom: 20px;
+        .widgettitle.widget-footer-title {
+            h4 {
+                font-size: 14px;
+                margin: 5px 0 40px;
+                color: #fff;
+            }
+        }
+        p {
+            margin-bottom: 10px !important;
+        }
+    }
+    &__widgets {
+        margin-bottom: 23px;
+    }
+    &__bottom {
+        position: relative;
+        padding: 25px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        &:before {
+            @include pseudo();
+            @include absoluted();
+            left: -9999px;
+            right: -9999px;
+            z-index: 10;
+        }
+        .stm_markup {
+            position: relative;
+            z-index: 20;
+            .stm_markup {
+                align-items: center;
+            }
+        }
+        .stm_markup__sidebar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            > div {
+                margin-left: 15px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+        .stm-socials {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+
+    .widget_tag_cloud .tagcloud a {
+        color: #fff;
+        &:hover {
+            color: #000;
+        }
+    }
+    .widget.widget-default.widget_search .search-form input[name="s"]:focus {
+        color: #fff;
+    }
+
+    .wp-caption p.wp-caption-text {
+        color: #000;
+    }
+
+    table tbody tr th, table tbody tr td,
+    .widget.widget_rss ul li {
+        border-bottom-color: rgba(255, 255, 255, 0.4);
+    }
+
+}
+
+.widget_mc4wp_form_widget {
+    .form-group input {
+        padding: 7px 40px 7px 13px;
+        font-size: 14px;
+        + .btn_icon {
+            padding: 0 10px;
+            right: 0;
+        }
+        &:focus {
+            + .btn_icon .btn__icon {
+                color: transparent;
+            }
+        }
+    }
+}

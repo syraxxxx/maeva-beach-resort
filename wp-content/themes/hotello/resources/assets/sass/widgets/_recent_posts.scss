@@ -1,0 +1,41 @@
+.widget.widget_recent_entries {
+    ul {
+        li {
+            padding-left: 0;
+            &:before {
+                content: '';
+                top: 0;
+                bottom: 8px;
+                width: 6px;
+                background-color: rgba(0,0,0,0.3);
+            }
+            a {
+                display: block;
+                position: relative;
+                padding: 6px 0 14px 20px;
+                &:after {
+                    @include pseudo();
+                    position: absolute;
+                    right: 0;
+                    left: 20px;
+                    bottom: 0;
+                    border-bottom: 1px solid rgba(0,0,0,0.3);
+                }
+            }
+            &:last-child {
+                a {
+                    &:after {
+                        border-bottom: 0;
+                    }
+                }
+            }
+            .post-date {
+                display: block;
+                position: relative;
+                top: -7px;
+                margin-bottom: 20px;
+                padding: 20px 0 0 20px;
+            }
+        }
+    }
+}

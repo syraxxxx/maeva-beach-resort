@@ -1,0 +1,235 @@
+@import "../../variables";
+@import "../../mixins";
+
+.vc_container,
+.vc_container-fluid {
+  position: relative;
+  z-index: 10;
+  .container {
+    max-width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+}
+
+/*Ipad fix*/
+.vc_row-flex {
+  .row {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.vc_row {
+  & > .container {
+    & > .row {
+      padding: 0;
+      @include breakpoint(tablet) {
+        //padding: 0 7.5px;
+      }
+      @include breakpoint(tabletonly) {
+        //padding: 0 15px;
+      }
+    }
+  }
+
+  &-flex {
+    & > .container, & > .container-fluid {
+      //flex: 1;
+      & > .row {
+        display: flex;
+        flex-wrap: wrap;
+        > .vc_column_container {
+          display: flex;
+          > .vc_column-inner {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            @media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+              /* IE10+ specific styles */
+              & > * {
+                min-height: 1em;
+              }
+            }
+          }
+        }
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &-o-columns-stretch {
+    & > .container, & > .container-fluid {
+      & > .row {
+        align-content: stretch;
+      }
+    }
+  }
+
+  &-o-columns-top {
+    & > .container, & > .container-fluid {
+      & > .row {
+        align-content: flex-start;
+      }
+    }
+  }
+
+  &-o-columns-bottom {
+    & > .container, & > .container-fluid {
+      & > .row {
+        align-items: flex-end;
+      }
+    }
+  }
+
+  &-o-columns-middle {
+    & > .container, & > .container-fluid {
+      & > .row {
+        align-items: flex-end;
+      }
+    }
+  }
+  &.vc_row-o-columns-top,
+  &.vc_row-o-columns-bottom,
+  &.vc_row-o-columns-middle {
+    & > .container, & > .container-fluid {
+      & > .row {
+        &::after {
+          content: '';
+          width: 100%;
+          height: 0;
+          overflow: hidden;
+          visibility: hidden;
+          display: block;
+        }
+      }
+    }
+  }
+
+  &-o-equal-height {
+    & > .container, & > .container-fluid {
+      & > .row {
+        > .vc_column_container {
+          align-items: stretch;
+        }
+      }
+    }
+  }
+
+  &-o-content-top {
+    & > .container, & > .container-fluid {
+      & > .row {
+        > .vc_column_container {
+          > .vc_column-inner {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+    &:not(.vc_row-o-equal-height) > .container, &:not(.vc_row-o-equal-height) > .container-fluid {
+      > row {
+        > .vc_column_container {
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+
+  &-o-content-bottom {
+    & > .container, & > .container-fluid {
+      & > .row {
+        > .vc_column_container {
+          > .vc_column-inner {
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+    &:not(.vc_row-o-equal-height) > .container, &:not(.vc_row-o-equal-height) > .container-fluid {
+      > row {
+        > .vc_column_container {
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+
+  &-o-content-middle {
+    & > .container, & > .container-fluid {
+      & > .row {
+        > .vc_column_container {
+          > .vc_column-inner {
+            justify-content: center;
+          }
+        }
+      }
+    }
+    &:not(.vc_row-o-equal-height) > .container, &:not(.vc_row-o-equal-height) > .container-fluid {
+      > .vc_column_container {
+        align-items: center;
+      }
+    }
+  }
+}
+
+.wpb_column[data-stretch].vc_column_container {
+  > .vc_column-inner {
+    //width: auto;
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+@include breakpoint(tabletunder) {
+  div[data-stretch="right"] {
+    .vc_column-inner {
+      //margin-left: -15px !important;
+      position: relative;
+    }
+  }
+
+  div[data-stretch="left"] {
+    .vc_column-inner {
+      //margin-right: -15px !important;
+    }
+  }
+}
+
+@include breakpoint(tabletonly) {
+  .vc_col-sm-6 {
+    &:nth-of-type(2n+1) {
+      clear: both;
+    }
+  }
+}
+
+.bump {
+  &_round {
+    width: 139px;
+    height: 139px;
+    position: absolute;
+    top: -23px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    z-index: -1;
+  }
+  &_bottom {
+    bottom: -23px;
+    top: auto;
+  }
+}
+
+.vc_section.vc_row-o-full-height {
+  min-height: 100vh !important;
+}

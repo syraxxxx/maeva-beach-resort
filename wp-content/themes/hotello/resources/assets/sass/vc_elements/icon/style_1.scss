@@ -1,0 +1,59 @@
+@import "../../variables";
+@import "../../mixins";
+@import "base";
+
+.stm_icon {
+    z-index: 5;
+    margin-bottom: 15px;
+    &.stm_icon_styled_bg {
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        i {
+            display: block;
+            min-width: 160px;
+            min-height: 160px;
+            line-height: 160px;
+            box-shadow: 3px 3px 17px rgba(51, 51, 51, 0.15);
+            border-radius: 50%;
+            //color: #fff !important;
+            transition: .3s ease;
+            &:hover {
+                //background-color: #fff !important;
+            }
+        }
+    }
+
+    &.stm_icon_gradient {
+        i {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &.stm_icon_round_bg {
+        position: relative;
+        min-height: 80px;
+        i {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            min-width: 80px;
+            min-height: 80px;
+            &:after {
+                @include absoluted();
+                @include pseudo();
+                min-width: 80px;
+                min-height: 80px;
+                z-index: -1;
+            }
+            &:before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+        }
+    }
+}

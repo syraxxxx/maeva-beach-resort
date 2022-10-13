@@ -1,0 +1,17 @@
+
+.stm_widget_media {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 -5px;
+  &__single {
+    display: block;
+    max-width: 33.333%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    @include breakpoint(tablet) {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

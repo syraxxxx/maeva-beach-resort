@@ -1,0 +1,118 @@
+.stm_hotel_theme {
+    .vc_images_carousel {
+        .vc_carousel-indicators {
+            li {
+                background-color: #fff !important;
+                border: none;
+                width: 12px;
+                height: 12px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.owl-carousel {
+    .owl-dots {
+        text-align: center;
+        margin-top: 25px;
+        .owl-dot {
+            display: inline-block;
+            padding: 10px !important;
+            background-color: transparent !important;
+            span {
+                background-color: #aaa;
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .owl-nav {
+        button.owl-prev, button.owl-next {
+            width: 80px;
+            height: 80px;
+            border-radius: 4px;
+            background-color: rgba(#000, .3);
+            border: none;
+            @include absAlign(v);
+            span {
+                display: none;
+            }
+            font-size: 0;
+            &:before {
+                display: inline-block;
+                @include stmicon($stmicon-keyboard_arrow_right);
+                font-size: 35px;
+                color: #fff !important;
+                line-height: 47px;
+            }
+        }
+        .owl-prev {
+            left: 40px;
+            &:before {
+                transform: rotate(180deg) translateX(1px);
+            }
+        }
+        .owl-next {
+            left: auto;
+            right: 40px;
+        }
+    }
+}
+
+ul.page-numbers {
+    position: relative;
+    margin: 0 0 40px 0;
+    &:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+    li {
+        margin: 0 11px 0 0;
+        float: left;
+        a {
+            text-decoration: none;
+        }
+    }
+    .page-numbers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 30px;
+        height: 30px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5);
+        .fa {
+            font-size: 12px;
+        }
+        &.next {
+        }
+        &.prev {
+            padding-top: 3px;
+            padding-right: 2px;
+        }
+        &.current {
+            color: $white;
+        }
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        width: 40px;
+        height: 40px;
+        &:before {
+            line-height: 40px;
+            font-size: 25px;
+        }
+    }
+}

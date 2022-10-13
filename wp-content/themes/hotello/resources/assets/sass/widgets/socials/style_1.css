@@ -1,0 +1,18 @@
+.widget_socials_style_1 .stm-socials {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.widget_socials_style_1 .stm-socials li a {
+  display: block;
+  padding: 0 5px;
+  font-size: 16px;
+  color: #fff;
+}
+.widget_socials_style_1 .stm-socials:after {
+  display: none;
+}
+
+/*# sourceMappingURL=style_1.css.map */

@@ -1,0 +1,228 @@
+//Hotel
+@import "../sass/mixins";
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn {
+    position: relative;
+    padding: 15px 30px;
+    border-width: 2px;
+    border-radius: 25px;
+    outline: none !important;
+
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+
+    &_shadow {
+        box-shadow: 0 10px 20px 0 rgba(132, 107, 61, 0.3);
+    }
+
+    &_outline {
+        &:hover {
+            .btn__icon {
+                color: #fff !important;
+            }
+        }
+    }
+    &_full-width {
+        width: 100%;
+        .btn__icon {
+            position: static !important;
+            transform: none !important;
+        }
+        &.btn_icon {
+            &-right {
+                .btn__icon {
+                    margin-left: 15px;
+                    margin-right: -25px;
+                }
+            }
+        }
+    }
+
+    &_xs {
+        padding-top: 2px;
+        padding-bottom: 4px;
+    }
+    &__icon {
+        top: -1px;
+        bottom: -1px;
+        vertical-align: middle;
+        line-height: 18px;
+    }
+
+    .btn__icon {
+        bottom: auto;
+        &:before {
+            font-size: 18px;
+        }
+    }
+    &_icon-right {
+        padding-right: 55px;
+        .btn__icon {
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            right: 15px;
+            display: inline-block;
+            @include absAlign(v);
+        }
+    }
+    &_icon-left {
+        .btn__icon {
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            &:before {
+                position: relative;
+                right: -1px;
+            }
+        }
+    }
+}
+
+.btn.btn_lg {
+    padding: 15px 86px;
+}
+
+.btn.btn_sm {
+    padding: 15px 20px;
+}
+
+.btn_solid {
+    color: #fff;
+}
+
+.btn_white {
+    &.btn_solid {
+        &:hover {
+            color: #fff !important;
+        }
+    }
+    .btn_outline {
+    }
+}
+
+.btn.btn_outline {
+    &.btn_xs {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    &:hover {
+        color: #fff !important;
+    }
+    &.btn_primary {
+        &:hover {
+            color: #fff !important;
+        }
+    }
+}
+
+.btn.wtc,
+.btn.btn_outline.wtc,
+.btn.btn_outline.wtc:hover,
+.btn.btn_outline.btn_third:hover,
+.btn.btn_outline.wtc_h:hover,
+.btn.btn_solid:not(.btn_white),
+.btn.btn_solid:not(.btn_white) .btn__icon {
+    color: #fff !important;
+}
+
+.btn_white.btn_solid,
+.btn.btn_outline.btn_white:hover,
+.btn.btn_outline:not(.btn_white):hover .btn__icon:after,
+.btn.btn_solid:not(.btn_white) .btn__icon:after,
+.btn.btn_solid:not(.btn_white):hover .btn__icon:after {
+    background-color: #fff !important;
+}
+
+.btn.btn_outline.btn_white {
+    border-color: #fff !important;
+}
+
+.btn.btn_outline.btn_white:not(:hover),
+.stm_header_style_1 .stm-navigation ul > li > ul > li > a:hover,
+.stm_header_style_1 .stm-navigation ul > li > ul > li.current-menu-item > a,
+.btn_outline.btn_primary:hover,
+.btn_outline.btn_secondary:hover,
+.btn_outline.btn_third:hover,
+.btn_outline.btn_primary:hover .btn__icon,
+.btn_outline.btn_secondary:hover .btn__icon,
+.btn_outline.btn_third:hover .btn__icon,
+.btn.btn_outline.btn_white:not(:hover) .btn__icon {
+    color: white !important;
+}
+
+textarea {
+    min-height: 80px !important;
+}
+
+.widget.widget-default.widget_search .search-form button {
+    border-radius: 0;
+}
+
+button[type="submit"]:not(.btn),
+input[type="submit"]:not(.btn) {
+    padding: 10px 36px;
+    text-transform: none;
+    font-size: 16px;
+    border-radius: 99px;
+    font-weight: 400;
+    border: 0;
+}
+
+.stm-button {
+    &_fullwidth {
+        .btn_outline.btn_outline.btn_fullwidth {
+            border-width: 2px;
+            border-radius: 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            &:hover {
+                color: #fff !important;
+                .btn_subtitle_label {
+
+                }
+            }
+            .btn__label {
+                display: block;
+                margin: -4px 0 0;
+                font-size: 14px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            .btn_subtitle_label {
+                opacity: 0.75;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+    &_center {
+        text-align: center;
+    }
+    &.icon-only {
+        .btn {
+            padding: 5px !important;
+            min-width: 32px;
+            min-height: 32px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-custom:hover {
+    border-color: #b55b02 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}

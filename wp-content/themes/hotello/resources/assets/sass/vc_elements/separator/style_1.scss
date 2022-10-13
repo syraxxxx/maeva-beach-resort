@@ -1,0 +1,19 @@
+@import "../../mixins";
+
+.stm_separator_style_1 {
+  .stm_separator {
+    display: block;
+    width: 46px;
+    height: 5px;
+    margin: 0 0 21px;
+    &_doubled {
+      position: relative;
+      &:before {
+        @include pseudo();
+        @include absoluted();
+        right: 100%;
+        opacity: 0;
+      }
+    }
+  }
+}
